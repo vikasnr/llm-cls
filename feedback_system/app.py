@@ -13,6 +13,7 @@ app = FastAPI()
 
 class PromptInput(BaseModel):
     prompt: str
+    task_details: str
 
 class FeedbackInput(BaseModel):
     prompt: str
@@ -28,8 +29,9 @@ class LLLSelected(BaseModel):
 @app.post("/predict/")
 def predict(prompt: PromptInput):
     '''predict llm model'''
-    prompt_data = prompt.dict()
-    predicted_llm, confidence = predict_llm(prompt_data)
+    prompt_data = prompt.prompt
+    task_details = prompt.task_details
+    predicted_llm, confidence = predict_llm(prompt_data,task_details)
     return {"predicted_llm": predicted_llm, "confidence": confidence}
 
 

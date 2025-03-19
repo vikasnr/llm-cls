@@ -109,7 +109,7 @@ def classify_complexity():
 
 
 
-def predict_llm(prompt):
+def predict_llm(prompt,task_details):
     """
     Predicts the best LLM and logs the prediction.
     """
@@ -117,7 +117,9 @@ def predict_llm(prompt):
 
 
     complexity = classify_complexity(prompt)
-    features.update({"complexity": complexity, "module": "document_extraction","prompt_length": len(prompt)})
+    
+    features.update({"complexity": complexity, "module": "document_extraction","prompt_length": len(prompt),"module":task_details})
+
     print(features)
     new_df = pd.DataFrame([features])
 
@@ -146,6 +148,3 @@ def predict_llm(prompt):
     log_prediction(features, predicted_llm, max(y_pred_proba))
 
     return predicted_llm, max(y_pred_proba)
-
-predict_llm() 
-    extracts the features from prompt, predicts the best LLM model based on the features, and logs the prediction. 
