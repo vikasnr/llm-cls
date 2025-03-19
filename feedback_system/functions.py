@@ -146,3 +146,6 @@ def predict_llm(prompt):
     log_prediction(features, predicted_llm, max(y_pred_proba))
 
     return predicted_llm, max(y_pred_proba)
+
+predict_llm() 
+    extracts the features from prompt, predicts the best LLM model based on the features, and logs the prediction. 
