@@ -10,20 +10,21 @@
  - [Limitation and Scope for Improvement](#Limitation-and-Scope-for-Improvement)
  - [Resources](#Resources)
 
+------------------------------------
 
 #### Why I Decided to Generate Features Instead of Relying on Public Datasets
 Before diving into the other sections, I’d like to explain why I chose to generate the data myself.
 I lacked programmatic access to LLM models, which restricted my ability to create features for this assignment. Preprocessing publicly available benchmark datasets like "grade-school-math," "hellaswag," "mmlu," "arc-challenge," "mbpp," "winogrande," and "mtbench" presents several challenges in terms of time and data integration. These datasets vary significantly in structure, format, and granularity, making it difficult to standardize them into a unified feature set.  
 
 Aggregating data from Hugging Face and other benchmark sources requires extensive cleaning, normalization, and alignment of missing attributes. Many datasets lack key metadata which are essential for my classifier. Additionally, these benchmarks often focus on specific LLM capabilities rather than providing a balanced distribution across all prompt types. 
-
+-----------------------------
 #### Data Preprocessing
 Refer notebooks/data_preprocessing.ipynb for more details on preprocessing.
-
+--------------------------
 #### Model Training and Inference 
 - Refer notebooks/Modelling_Final.ipynb
 - Refer model architecture notebooks/files/xgboost_arch.png
-
+-------------------------------------------------
 
 ### Feedback System
 
@@ -36,7 +37,7 @@ Refer notebooks/data_preprocessing.ipynb for more details on preprocessing.
 - Endpoint that takes a prompt, task description and returns the best LLM model based on the features of the prompt and the confidence score.
 - Calls **`predict_llm()`**
   - Extracts features from the prompt, predicts the best LLM model, and logs the prediction.
------------------------------------
+
 ##### `/feedback`
 - Endpoint that takes a prompt, response, correct LLM model, and ground truth response, and logs the feedback scores.
 - Calls **`evaluate_llm()`**  
@@ -60,7 +61,7 @@ Refer notebooks/data_preprocessing.ipynb for more details on preprocessing.
 - This could be a seperate service that monitors log and triggers retrain based on set rules
 
 #### Refer feedback_system folder for more details
-
+----------------------------------------
 ### Limitation and Scope for Improvement
 
 - ###### Limitations of Synthetic Dataset
@@ -74,7 +75,7 @@ Refer notebooks/data_preprocessing.ipynb for more details on preprocessing.
   
 - ###### Trying Other Models
     With the increase in train samples using complex models like deep learning models could yield better results.
-
+-------------------------------------
 ### Resources
 
 
