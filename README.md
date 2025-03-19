@@ -4,14 +4,15 @@ I lacked programmatic access to LLM models, which restricted my ability to creat
 
 Aggregating data from Hugging Face and other benchmark sources requires extensive cleaning, normalization, and alignment of missing attributes. Many datasets lack key metadata which are essential for my classifier. Additionally, these benchmarks often focus on specific LLM capabilities rather than providing a balanced distribution across all prompt types. 
 
-#### Refer notebooks/data_preprocessing.ipynb for more details on preprocessing.
+#### Data Preprocessing
+Refer notebooks/data_preprocessing.ipynb for more details on preprocessing.
 
-#### For model training and inference refer notebooks/Modelling_Final.ipynb
+#### Model Training and Inference 
+- Refer notebooks/Modelling_Final.ipynb
+- Refer model architecture notebooks/files/xgboost_arch.png
 
-##### Refer model architecture - notebooks/files/xgboost_arch.png
 
-
-### Feedback system
+### Feedback System
 
 <img src="notebooks/files/feedback_system.png" width="760" class="center">
 
@@ -43,15 +44,19 @@ Aggregating data from Hugging Face and other benchmark sources requires extensiv
 - **(Dummy function)**
 - Takes a prompt and the LLM model name and returns the generated response.
 
+##### `/monitor_metric`
+- **(Dummy function)**
+- This could be a seperate service that monitors log and triggers retrain based on set rules
+
 #### Refer feedback_system folder for more details
 
 ### Limitation and scope for improvement
 
-- ###### Lack of Generalization to Real-world Tasks
-    Synthetic data may not capture real-world distribution: Synthetic dataset doesn’t closely resemble real user queries and responses. This is one area which will need greater amount of time - fetching from varies source and aggregating them for modules.
+- ###### Limitations of Synthetic Dataset
+    Synthetic dataset doesn’t closely resemble real user queries and responses. This is one area which will need greater amount of time - fetching from varies source and aggregating them for modules.
 
 - ###### Feature selection
-    I wouldn't say the features choosen initially are the best. All though I have added BLEU, ROUGE scores etc for feedback retraining. It could be helpful to have it while intial modelling.
+    I wouldn't say the features choosen initially are the best. All though I have added BLEU, ROUGE scores etc in feedback system, it could be helpful to have these scores during intial modelling.
 
 
 
