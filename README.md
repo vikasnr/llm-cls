@@ -14,21 +14,21 @@ Aggregating data from Hugging Face and other benchmark sources requires extensiv
 
 ##### `/predict`
 - Endpoint that takes a prompt and returns the best LLM model based on the features of the prompt and the confidence score.
-- Calls `predict_llm()`**  
+- Calls **`predict_llm()`**
   - Extracts features from the prompt, predicts the best LLM model, and logs the prediction.
 
 ##### `/feedback`
 - Endpoint that takes a prompt, response, correct LLM model, and ground truth response, and logs the feedback scores.
-- Calls `evaluate_llm()`**  
+- Calls **`evaluate_llm()`**  
   - Computes the faithfulness, BLEU, and ROUGE scores using the response and ground truth response.
-- Calls `log_feedback()`**  
+- Calls **`log_feedback()`**  
   - Logs the feedback scores and the correct LLM model for future training.
 
 ##### `/retrain`
 - Endpoint that retrains the LLM model based on the feedback logs.
-- Calls `retrain_model_with_metrics()`**  
+- Calls **`retrain_model_with_metrics()`**  
   - Loads previous LLM selection data, faithfulness, BLEU, and ROUGE scores, and retrains the model.
-- Calls `retrain_model_without_metrics()`**  
+- Calls **`retrain_model_without_metrics()`**  
   - Loads logs, converts them to a DataFrame, extracts features, retrains the model, and saves the updated models.
   
 **Note:** Retraining can be triggered manually or automatically based on feedback logs.
