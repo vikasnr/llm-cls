@@ -1,0 +1,3248 @@
+[
+    {
+        "module": "t1",
+        "prompts": [
+            {
+                "prompt": "Extract the names and contact numbers from the PDF provided.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Identify and extract all tables from the Word document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "From the given document, extract the names of all individuals mentioned along with their roles.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract the dates and times from the document and format them into a consistent date-time format.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Dates & Timestamps"
+                ]
+            },
+            {
+                "prompt": "From the PDF, extract all numerical values mentioned and their context.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Numerical Data",
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract and sort the numerical data from the table in the document by their values.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the key points and conclusions from the research paper.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Identify and extract all the bullet points from the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "From the Word document, extract all the graphs and charts present.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Extract the names of all the products listed and their prices from the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the titles and authors of all the books listed in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract and format the dates from the document into YYYY-MM-DD format.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Dates & Timestamps"
+                ]
+            },
+            {
+                "prompt": "Extract all the equations and formulas from the scientific paper.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Equations & Formulas"
+                ]
+            },
+            {
+                "prompt": "From the document, extract the names of all the cities mentioned and their respective countries.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract and categorize the different types of products mentioned in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract the names of all the chapters in the document and their page numbers.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the dates and times from the document and convert them to UTC format.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Dates & Timestamps"
+                ]
+            },
+            {
+                "prompt": "Extract all the labels and values from the bar chart in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Graphs & Charts",
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the titles and abstracts from the list of research papers.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract and list all the numerical values from the table in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the names and email addresses from the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the names of all the authors mentioned in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract and list all the equations from the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Equations & Formulas"
+                ]
+            },
+            {
+                "prompt": "From the document, extract the names and contact details of all individuals listed.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the names of all the figures mentioned in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract all numerical values from the document and categorize them by type.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the names and roles of all individuals mentioned in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract the names of all the cities mentioned in the document and their respective countries.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract and list all the figures mentioned and their descriptions in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "From the document, extract the names and contact numbers of all individuals listed.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract all numerical values from the document and categorize them by type.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the names and email addresses of all individuals mentioned in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the names of all the chapters in the document and their page numbers.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the dates and times from the document and convert them to UTC format.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Dates & Timestamps"
+                ]
+            },
+            {
+                "prompt": "Extract all the labels and values from the pie chart in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Graphs & Charts",
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the titles and abstracts of all the research papers listed in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract and list all the numerical values from the table in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the names and phone numbers of all individuals mentioned in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the names of all the authors mentioned in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract and list all the equations from the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Equations & Formulas"
+                ]
+            },
+            {
+                "prompt": "From the document, extract the names and contact details of all individuals listed.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the names of all the figures mentioned in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract all numerical values from the document and categorize them by type.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the names and roles of all individuals mentioned in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract the names of all the cities mentioned in the document and their respective countries.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract and list all the figures mentioned and their descriptions in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "From the document, extract the names and contact numbers of all individuals listed.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract all numerical values from the document and categorize them by type.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the names and email addresses of all individuals mentioned in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the names of all the chapters in the document and their page numbers.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the dates and times from the document and convert them to UTC format.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Dates & Timestamps"
+                ]
+            },
+            {
+                "prompt": "Extract all the labels and values from the line chart in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Graphs & Charts",
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the titles and abstracts of all the research papers listed in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract and list all the numerical values from the table in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the names and phone numbers of all individuals mentioned in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the names of all the authors mentioned in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract and list all the equations from the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Equations & Formulas"
+                ]
+            },
+            {
+                "prompt": "From the document, extract the names and contact details of all individuals listed.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the names of all the figures mentioned in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract all numerical values from the document and categorize them by type.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Numerical Data"
+                ]
+            },
+            {
+                "prompt": "Extract the names and roles of all individuals mentioned in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract the names of all the cities mentioned in the document and their respective countries.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "Extract and list all the figures mentioned and their descriptions in the document.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text"
+                ]
+            },
+            {
+                "prompt": "From the document, extract the names and contact numbers of all individuals listed.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data"
+                ]
+            }
+        ]
+    },
+    {
+        "module": "t2",
+        "prompts": [
+            {
+                "prompt": "Calculate the daily growth rate for a given investment portfolio over a year with an initial investment of $10,000.",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Determine the break-even point for a business given monthly revenue and expenses.",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the Net Present Value (NPV) of a series of cash flows over a period of 10 years with a discount rate of 5%",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Compute the internal rate of return (IRR) for a project with varying cash inflows and outflows over a 5-year period.",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Use the Black-Scholes model to calculate the theoretical price of a European call option.",
+                "complexity": "Complex",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the compound interest for a deposit of $5,000 over 3 years at an annual interest rate of 4%.",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Determine the payback period for a project with annual cash inflows and outflows.",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the annuity payment for a 10-year loan with a principal of $100,000 and an annual interest rate of 6%.",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Compute the weighted average cost of capital (WACC) for a company.",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Determine the future value of an investment with a series of annual contributions over 15 years at an interest rate of 3%.",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the present value of a series of cash flows with varying discount rates.",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Use the Gordon Growth Model to estimate the intrinsic value of a stock given its current dividend and expected growth rate.",
+                "complexity": "Complex",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the simple interest for a loan of $20,000 over 2 years at an interest rate of 3%.",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Determine the Hurst exponent for a given time series to understand its fractal properties.",
+                "complexity": "Complex",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the Sharpe ratio for an investment portfolio with given returns and standard deviation.",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Determine the optimal portfolio weights using the Markowitz mean-variance optimization.",
+                "complexity": "Complex",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the duration and convexity of a bond given its cash flows and yield to maturity.",
+                "complexity": "Complex",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Determine the Beta coefficient for a stock using historical returns and market returns.",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the coefficient of determination (R-squared) for a linear regression model.",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Use the Capital Asset Pricing Model (CAPM) to estimate the expected return of an asset.",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Determine the Portfolio Performance Index (PPI) to evaluate the performance of an investment portfolio.",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the Z-score for a given stock price to understand its deviation from the mean.",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Use the Efficient Frontier to determine the minimum variance portfolio for a set of assets.",
+                "complexity": "Complex",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the standard deviation of a series of monthly returns for a stock.",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Determine the Autoc of a time series to understand its temporal dependencies.",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the payback period for a project with initial investment and cash inflows over multiple years.",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Determine the expected return and risk for an investment portfolio given its historical returns.",
+                "complexity": "Complex",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the volatility of a stock using its daily closing prices over a year.",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Use the Jensen's Alpha to measure the performance of a stock relative to the market.",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Determine the Value at Risk (VaR) for an investment portfolio at a 95% confidence level.",
+                "complexity": "Complex",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the Moving Average Convergence Divergence (MACD) for a stock to identify trend changes.",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Determine the Hurst exponent for a financial time series to understand its persistence properties.",
+                "complexity": "Complex",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the net profit margin for a company based on its income statement.",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Determine the Return on Investment (ROI) for a project given its initial investment and net profit.",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Use the Dividend Discount Model (DDM) to estimate the intrinsic value of a stock.",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the Capitalization Rate for a real estate investment property.",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Determine the Coefficient of Variation for a series of data points to understand its dispersion.",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the Sortino Ratio for an investment portfolio to measure its risk-adjusted return.",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Determine the geometric mean of a series of returns for an investment portfolio.",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the volatility asymmetry for a stock using its daily returns.",
+                "complexity": "Complex",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Use the Modified Duration to estimate the sensitivity of a bond's price to changes in interest rates.",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Determine the beta coefficient for a portfolio of stocks using their individual betas and weights.",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the Sortino Ratio for a stock to measure its risk-adjusted return.",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Determine the volatility of a stock using its daily closing prices over a month.",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Use the Sharpe Ratio to measure the risk-adjusted return of an investment portfolio.",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the Jensen's Alpha for a stock to measure its performance relative to the market.",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Determine the Value at Risk (VaR) for a stock at a 99% confidence level.",
+                "complexity": "Complex",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Calculate the Moving Average Convergence Divergence (MACD) for a stock to identify trend changes.",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "Determine the Hurst exponent for a financial time series to understand its persistence properties.",
+                "complexity": "Complex",
+                "data_type": "Numerical Data"
+            }
+        ]
+    },
+    {
+        "module": "t3",
+        "prompts": [
+            {
+                "prompt": "Generate a report on quarterly sales performance for the year 2023.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a weekly progress report for the marketing campaign.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly financial report for January 2023.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Numerical Data",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a daily activity report for the IT department.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly production report for the manufacturing department.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly sales report comparing last year's sales with this year's sales.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly performance report for the HR department.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly financial summary report.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Numerical Data",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly operational report for the supply chain.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a daily patient report for the hospital.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly market analysis report.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a weekly project completion report.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly research report on emerging technologies.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly performance review report for employees.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly inventory report.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Numerical Data",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly incident report for the IT security department.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly customer satisfaction report.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly educational report on student performance.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on social media engagement.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on environmental impact.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on customer complaints.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on employee attendance.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on product returns.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Numerical Data",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on website traffic.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on project milestones.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on marketing effectiveness.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee productivity.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on software development progress.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on budget allocation.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Numerical Data",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on sales targets.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on customer service performance.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on revenue growth.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on operational costs.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Numerical Data",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on IT system performance.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on market trends.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on research and development progress.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on supply chain efficiency.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on social media analytics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee training.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on project budget utilization.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on customer retention.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on product quality assurance.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on website performance.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on environmental sustainability.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee satisfaction.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on sales team performance.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on competitive analysis.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on operational efficiency.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on product development.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on customer acquisition.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee turnover.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on IT system security.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on marketing ROI.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on product innovation.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on customer feedback.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on brand recognition.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee engagement.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on project timelines.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on market share.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on operational metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on supply chain performance.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on product lifecycle.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee benefits utilization.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on website traffic analysis.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on customer loyalty.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on sales team activities.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on project milestones and deliverables.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on marketing strategy effectiveness.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee performance.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on IT system updates.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on revenue growth trends.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on operational costs breakdown.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Numerical Data",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on project status.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on market penetration.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee benefits usage.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on website user demographics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on customer retention strategies.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on product quality metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on project timelines and milestones.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on brand awareness.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee training effectiveness.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on project resource allocation.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on customer satisfaction trends.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on product innovation metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on website engagement metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on market competition.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on operational efficiency metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on project risk assessment.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on marketing campaign effectiveness.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on employee retention strategies.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on IT system performance metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on product lifecycle analysis.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee benefits utilization statistics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on website user behavior.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on customer acquisition strategies.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on product quality assurance metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on project budget variance.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on brand equity.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee engagement metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on project schedule adherence.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on market growth trends.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on operational cost control.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Numerical Data",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on project resource utilization.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on market share analysis.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee benefits utilization statistics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on website user demographics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on customer retention strategies.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on product quality metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on project timelines and milestones.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on brand awareness.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee training effectiveness.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on project resource allocation.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on customer satisfaction trends.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on product innovation metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on website engagement metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on market competition.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on operational efficiency metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on project risk assessment.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on marketing campaign effectiveness.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on employee retention strategies.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on IT system performance metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on product lifecycle analysis.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee benefits utilization statistics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on website user behavior.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on customer acquisition strategies.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on product quality assurance metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on project budget variance.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on brand equity.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee engagement metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on project schedule adherence.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on market growth trends.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on operational cost control.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Numerical Data",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on project resource utilization.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on market share analysis.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee benefits utilization statistics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on website user demographics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on customer retention strategies.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on product quality metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on project timelines and milestones.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on brand awareness.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee training effectiveness.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on project resource allocation.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on customer satisfaction trends.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on product innovation metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on website engagement metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on market competition.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on operational efficiency metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on project risk assessment.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on marketing campaign effectiveness.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on employee retention strategies.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on IT system performance metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on product lifecycle analysis.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee benefits utilization statistics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on website user behavior.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on customer acquisition strategies.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on product quality assurance metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on project budget variance.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on brand equity.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee engagement metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on project schedule adherence.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on market growth trends.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on operational cost control.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Numerical Data",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on project resource utilization.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on market share analysis.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee benefits utilization statistics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on website user demographics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on customer retention strategies.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on product quality metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on project timelines and milestones.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on brand awareness.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on employee training effectiveness.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Create a weekly report on project resource allocation.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a quarterly report on customer satisfaction trends.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a monthly report on product innovation metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            },
+            {
+                "prompt": "Generate a weekly report on website engagement metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Create a quarterly report on market competition.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Graphs & Charts"
+                ]
+            },
+            {
+                "prompt": "Generate a monthly report on operational efficiency metrics.",
+                "complexity": "Simple",
+                "data_type": [
+                    "Text",
+                    "Tables"
+                ]
+            }
+        ]
+    },
+    {
+        "module": "t4",
+        "prompts": [
+            {
+                "prompt": "What was the main finding of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you explain the significance of the data presented in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the key assumptions made in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "How was the data collected for this report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary challenges faced during the creation of the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you summarize the report in a few sentences?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the implications of the findings in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the limitations of the data used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "How does the data in the report compare to industry standards?",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "What are the actionable insights from the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the main sources of information used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you highlight the methodology used in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary goals of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the potential biases in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you explain the context of the data presented in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the recommendations based on the report findings?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "How was the data analyzed in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the major insights from the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary constraints in creating the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "How was the data collected for this report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary goals of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the potential biases in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you explain the context of the data presented in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the recommendations based on the report findings?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "How was the data analyzed in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the major insights from the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary constraints in creating the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary sources of information used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you provide a brief overview of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the key metrics analyzed in the report?",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "How does the data in the report compare to previous reports?",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "What are the strengths of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you explain the significance of the data presented in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the weaknesses of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the main sources of error in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you summarize the methodology used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary challenges faced during the creation of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "How does the data in the report compare to industry standards?",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "What are the actionable insights from the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you provide a brief overview of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the key metrics analyzed in the report?",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "How does the data in the report compare to previous reports?",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "What are the strengths of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you explain the significance of the data presented in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the weaknesses of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the main sources of error in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you summarize the methodology used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary challenges faced during the creation of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "How does the data in the report compare to industry standards?",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "What are the actionable insights from the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you provide a brief overview of the?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the key metrics analyzed in the report?",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "How does the data in the report compare to previous reports?",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "What are the strengths of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you explain the significance of the data presented in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the weaknesses of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the main sources of error in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you summarize the methodology used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary challenges faced during the creation of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "How does the data in the report compare to industry standards?",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "What are the actionable insights from the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you provide a brief overview of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the key metrics analyzed in the report?",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "How does the data in the report compare to previous reports?",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "What are the strengths of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you explain the significance of the data presented in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the weaknesses of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the main sources of error in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you summarize the methodology used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary challenges faced during the creation of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary sources of information used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you provide a brief overview of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the key metrics analyzed in the report?",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "How does the data in the report compare to previous reports?",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "What are the strengths of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you explain the significance of the data presented in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the weaknesses of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the main sources of error in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you summarize the methodology used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary challenges faced during the creation of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary sources of information used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you provide a brief overview of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the key metrics analyzed in the report?",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "How does the data in the report compare to previous reports?",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "What are the strengths of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you explain the significance of the data presented in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the weaknesses of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the main sources of error in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you summarize the methodology used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary challenges faced during the creation of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary sources of information used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you provide a brief overview of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the key metrics analyzed in the report?",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "How does the data in the report compare to previous reports?",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "What are the strengths of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you explain the significance of the data presented in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the weaknesses of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the main sources of error in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you summarize the methodology used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary challenges faced during the creation of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary sources of information used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you provide a brief overview of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the key metrics analyzed in the report?",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "How does the data in the report compare to previous reports?",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "What are the strengths of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you explain the significance of the data presented in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the weaknesses of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the main sources of error in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you summarize the methodology used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary challenges faced during the creation of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary sources of information used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you provide a brief overview of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the key metrics analyzed in the report?",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "How does the data in the report compare to previous reports?",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "What are the strengths of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you explain the significance of the data presented in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the weaknesses of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the main sources of error in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you summarize the methodology used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary challenges faced during the creation of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary sources of information used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you provide a brief overview of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the key metrics analyzed in the report?",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "How does the data in the report compare to previous reports?",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "What are the strengths of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you explain the significance of the data presented in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the weaknesses of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the main sources of error in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you summarize the methodology used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary challenges faced during the creation of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary sources of information used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you provide a brief overview of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the key metrics analyzed in the report?",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "How does the data in the report compare to previous reports?",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "What are the strengths of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you explain the significance of the data presented in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the weaknesses of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the main sources of error in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you summarize the methodology used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary challenges faced during the creation of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary sources of information used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you provide a brief overview of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the key metrics analyzed in the report?",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "How does the data in the report compare to previous reports?",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "What are the strengths of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you explain the significance of the data presented in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the weaknesses of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the main sources of error in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you summarize the methodology used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary challenges faced during the creation of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary sources of information used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you provide a brief overview of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the key metrics analyzed in the report?",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "How does the data in the report compare to previous reports?",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "What are the strengths of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you explain the significance of the data presented in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the weaknesses of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the main sources of error in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you summarize the methodology used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary challenges faced during the creation of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary sources of information used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you provide a brief overview of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the key metrics analyzed in the report?",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "How does the data in the report compare to previous reports?",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "What are the strengths of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you explain the significance of the data presented in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the weaknesses of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the main sources of error in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you summarize the methodology used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary challenges faced during the creation of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What were the primary sources of information used in the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you provide a brief overview of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the key metrics analyzed in the report?",
+                "complexity": "Medium",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "How does the data in the report compare to previous reports?",
+                "complexity": "Simple",
+                "data_type": "Numerical Data"
+            },
+            {
+                "prompt": "What are the strengths of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Can you explain the significance of the data presented in the report?",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "What are the weaknesses of the report?",
+                "complexity": "Simple",
+                "data_type": "Text"
+            }
+        ]
+    },
+    {
+        "module": "t5",
+        "prompts": [
+            {
+                "prompt": "Summarize the key points from these 5 news articles focusing on the most recent one.",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Generate a brief summary of these 3 research papers, prioritizing the latest findings.",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Create a concise summary for multiple product descriptions, highlighting the newest features.",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the contents of these 10 reports while emphasizing the most recent data.",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Generate a summary from these 5 academic articles, focusing on the most current research.",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the key details from these 10 customer reviews, prioritizing the latest feedback.",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Create a brief summary of these 5 scientific papers, focusing on the most recent findings.",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the contents of these 8 reports, emphasizing the most recent data.",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Generate a concise summary for multiple product reviews, highlighting the newest feedback.",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the key points from these 7 news articles, focusing on the most recent one.",
+                "complexity": "Simple",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the contents of these 15 reports, emphasizing the most recent data.",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Create a brief summary of these 10 scientific papers, focusing on the most recent findings.",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Generate a summary from these 10 academic articles, prioritizing the latest research.",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the key points from these 12 news articles, focusing on the most recent one.",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the contents of these 10 customer reviews, emphasizing the latest feedback.",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Extract and summarize the key details from 20 technical documents, prioritizing the most recent information.",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Generate a concise summary for 5 business reports, highlighting the newest data.",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the contents of 7 market analysis reports, emphasizing the most recent findings.",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Create a brief summary of 10 scientific studies, focusing on the most current research.",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the key points from 15 news articles, focusing on the most recent information.",
+                "complexity": "Medium",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Extract and summarize the key details from 25 technical documents, prioritizing the most recent data.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Generate a concise summary for 15 business reports, highlighting the newest information.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the contents of 12 market analysis reports, emphasizing the most recent findings.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Create a brief summary of 15 scientific studies, focusing on the most current research.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the key points from 20 news articles, focusing on the most recent information.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the contents of these 20 customer reviews, emphasizing the latest feedback.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Generate a summary from these 20 academic articles, prioritizing the latest research.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the key points from these 25 news articles, focusing on the most recent one.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Create a brief summary of these 20 scientific papers, focusing on the most recent findings.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the contents of these 25 reports, emphasizing the most recent data.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the contents of these 30 market analysis reports, emphasizing the most recent data.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Create a brief summary of these 20 scientific studies, focusing on the most recent findings.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Generate a summary from these 20 academic articles, prioritizing the latest research.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the key points from these 25 news articles, focusing on the most recent information.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the contents of these 25 customer reviews, emphasizing the latest feedback.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the contents of these 30 business reports, emphasizing the most recent data.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Generate a concise summary for these 25 product descriptions, highlighting the newest features.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the key points from these 30 technical documents, focusing on the most recent information.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Summarize the contents of these 30 market analysis reports, emphasizing the most recent data.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            },
+            {
+                "prompt": "Create a brief summary of these 25 scientific papers, focusing on the most recent findings.",
+                "complexity": "Complex",
+                "data_type": "Text"
+            }
+        ]
+    }
+]

@@ -1,0 +1,508 @@
+PID,prompt_length,complexity,data_type,module,LLM_PRE,num_tokens,num_sentences,lexical_diversity,readability,noun_ratio,verb_ratio,adjective_ratio,num_named_entities,contains_table,contains_list,redundancy_score,compression_ratio,contains_numbers,contains_chain_of_thought,contains_output_constraints,is_multi_turn
+0,60,Simple,"['Text', 'Numerical Data']",document_extraction,GPT,11,1,0.9090909090909091,8.4,0.2727272727272727,0.18181818181818182,0.0,1,False,False,1,5.454545454545454,False,False,False,False
+1,55,Simple,['Tables'],document_extraction,GPT,10,1,1.0,9.2,0.2,0.2,0.0,0,False,False,0,5.5,False,False,False,False
+2,95,Simple,['Text'],document_extraction,GPT,17,1,0.9411764705882353,10.3,0.23529411764705882,0.17647058823529413,0.0,0,False,False,1,5.588235294117647,False,False,False,False
+3,97,Simple,['Dates & Timestamps'],document_extraction,GPT,19,1,0.8421052631578947,9.5,0.3157894736842105,0.10526315789473684,0.05263157894736842,0,False,False,2,5.105263157894737,False,False,False,False
+4,71,Simple,"['Numerical Data', 'Text']",document_extraction,GPT,13,1,1.0,9.9,0.15384615384615385,0.15384615384615385,0.07692307692307693,1,False,False,1,5.461538461538462,False,False,False,False
+5,83,Simple,['Numerical Data'],document_extraction,GPT,16,1,0.875,9.1,0.25,0.125,0.0,0,False,False,1,5.1875,False,False,False,False
+6,63,Simple,['Text'],document_extraction,GPT,11,1,0.9090909090909091,6.0,0.36363636363636365,0.09090909090909091,0.09090909090909091,0,False,False,1,5.7272727272727275,False,False,False,False
+7,61,Simple,['Text'],document_extraction,GPT,11,1,0.9090909090909091,8.4,0.2727272727272727,0.18181818181818182,0.0,0,False,False,1,5.545454545454546,False,False,False,False
+8,66,Simple,['Graphs & Charts'],document_extraction,GPT,13,1,0.9230769230769231,5.2,0.23076923076923078,0.07692307692307693,0.07692307692307693,0,False,False,1,5.076923076923077,False,False,False,False
+9,80,Simple,"['Text', 'Numerical Data']",document_extraction,GPT,15,1,0.8666666666666667,6.4,0.26666666666666666,0.13333333333333333,0.0,0,False,False,1,5.333333333333333,False,False,False,False
+10,71,Simple,['Text'],document_extraction,GPT,14,1,0.8571428571428571,7.2,0.2857142857142857,0.14285714285714285,0.0,0,False,False,1,5.071428571428571,False,False,False,False
+11,70,Simple,['Dates & Timestamps'],document_extraction,GPT,16,1,0.8125,7.6,0.25,0.125,0.0,1,False,False,1,4.375,False,False,False,False
+12,65,Simple,['Equations & Formulas'],document_extraction,GPT,11,1,0.9090909090909091,10.7,0.2727272727272727,0.09090909090909091,0.09090909090909091,0,False,False,1,5.909090909090909,False,False,False,False
+13,96,Simple,['Text'],document_extraction,GPT,17,1,0.8823529411764706,8.0,0.23529411764705882,0.11764705882352941,0.058823529411764705,0,False,False,1,5.647058823529412,False,False,False,False
+14,81,Simple,['Text'],document_extraction,GPT,13,1,0.9230769230769231,10.3,0.23076923076923078,0.23076923076923078,0.07692307692307693,0,False,False,1,6.230769230769231,False,False,False,False
+15,77,Simple,"['Text', 'Numerical Data']",document_extraction,GPT,15,1,0.8666666666666667,6.4,0.3333333333333333,0.06666666666666667,0.0,0,False,False,1,5.133333333333334,False,False,False,False
+16,77,Simple,['Dates & Timestamps'],document_extraction,GPT,15,1,0.8666666666666667,6.4,0.26666666666666666,0.13333333333333333,0.0,1,False,False,1,5.133333333333334,False,False,False,False
+17,69,Simple,"['Graphs & Charts', 'Numerical Data']",document_extraction,GPT,14,1,0.8571428571428571,6.0,0.35714285714285715,0.07142857142857142,0.0,0,False,False,1,4.928571428571429,False,False,False,False
+18,66,Simple,['Text'],document_extraction,GPT,12,1,0.9166666666666666,6.4,0.4166666666666667,0.08333333333333333,0.0,0,False,False,1,5.5,False,False,False,False
+19,73,Simple,['Numerical Data'],document_extraction,GPT,14,1,0.8571428571428571,8.4,0.21428571428571427,0.14285714285714285,0.07142857142857142,0,False,False,1,5.214285714285714,False,False,False,False
+20,56,Simple,"['Text', 'Numerical Data']",document_extraction,GPT,10,1,0.9,8.0,0.4,0.1,0.0,0,False,False,1,5.6,False,False,False,False
+21,63,Simple,['Text'],document_extraction,GPT,12,1,0.8333333333333334,6.4,0.25,0.16666666666666666,0.0,0,False,False,1,5.25,False,False,False,False
+22,53,Simple,['Equations & Formulas'],document_extraction,GPT,10,1,0.9,6.8,0.2,0.2,0.0,0,False,False,1,5.3,False,False,False,False
+23,83,Simple,"['Text', 'Numerical Data']",document_extraction,GPT,15,1,0.9333333333333333,10.7,0.3333333333333333,0.13333333333333333,0.0,0,False,False,1,5.533333333333333,False,False,False,False
+24,63,Simple,['Text'],document_extraction,GPT,12,1,0.8333333333333334,6.4,0.25,0.16666666666666666,0.0,0,False,False,1,5.25,False,False,False,False
+25,75,Simple,['Numerical Data'],document_extraction,GPT,13,1,1.0,10.3,0.23076923076923078,0.15384615384615385,0.07692307692307693,0,False,False,1,5.769230769230769,False,False,False,False
+26,73,Simple,['Text'],document_extraction,GPT,13,1,0.9230769230769231,9.2,0.3076923076923077,0.15384615384615385,0.0,0,False,False,1,5.615384615384615,False,False,False,False
+27,93,Simple,['Text'],document_extraction,GPT,16,1,0.875,8.0,0.25,0.125,0.0625,0,False,False,1,5.8125,False,False,False,False
+28,82,Simple,['Text'],document_extraction,GPT,14,1,0.8571428571428571,7.2,0.21428571428571427,0.21428571428571427,0.0,0,False,False,1,5.857142857142857,False,False,False,False
+29,83,Simple,"['Text', 'Numerical Data']",document_extraction,GPT,15,1,0.9333333333333333,10.7,0.3333333333333333,0.13333333333333333,0.0,0,False,False,1,5.533333333333333,False,False,False,False
+30,75,Simple,['Numerical Data'],document_extraction,GPT,13,1,1.0,10.3,0.23076923076923078,0.15384615384615385,0.07692307692307693,0,False,False,1,5.769230769230769,False,False,False,False
+31,83,Simple,"['Text', 'Numerical Data']",document_extraction,GPT,14,1,0.9285714285714286,10.7,0.35714285714285715,0.14285714285714285,0.0,0,False,False,1,5.928571428571429,False,False,False,False
+32,77,Simple,"['Text', 'Numerical Data']",document_extraction,GPT,15,1,0.8666666666666667,6.4,0.3333333333333333,0.06666666666666667,0.0,0,False,False,1,5.133333333333334,False,False,False,False
+33,77,Simple,['Dates & Timestamps'],document_extraction,GPT,15,1,0.8666666666666667,6.4,0.26666666666666666,0.13333333333333333,0.0,1,False,False,1,5.133333333333334,False,False,False,False
+34,69,Simple,"['Graphs & Charts', 'Numerical Data']",document_extraction,GPT,14,1,0.8571428571428571,6.0,0.35714285714285715,0.07142857142857142,0.0,0,False,False,1,4.928571428571429,False,False,False,False
+35,83,Simple,['Text'],document_extraction,GPT,15,1,0.8666666666666667,8.8,0.3333333333333333,0.13333333333333333,0.0,0,False,False,1,5.533333333333333,False,False,False,False
+36,73,Simple,['Numerical Data'],document_extraction,GPT,14,1,0.8571428571428571,8.4,0.21428571428571427,0.14285714285714285,0.07142857142857142,0,False,False,1,5.214285714285714,False,False,False,False
+37,81,Simple,"['Text', 'Numerical Data']",document_extraction,GPT,14,1,0.9285714285714286,9.5,0.35714285714285715,0.14285714285714285,0.0,0,False,False,1,5.785714285714286,False,False,False,False
+38,63,Simple,['Text'],document_extraction,GPT,12,1,0.8333333333333334,6.4,0.25,0.16666666666666666,0.0,0,False,False,1,5.25,False,False,False,False
+39,53,Simple,['Equations & Formulas'],document_extraction,GPT,10,1,0.9,6.8,0.2,0.2,0.0,0,False,False,1,5.3,False,False,False,False
+40,83,Simple,"['Text', 'Numerical Data']",document_extraction,GPT,15,1,0.9333333333333333,10.7,0.3333333333333333,0.13333333333333333,0.0,0,False,False,1,5.533333333333333,False,False,False,False
+41,63,Simple,['Text'],document_extraction,GPT,12,1,0.8333333333333334,6.4,0.25,0.16666666666666666,0.0,0,False,False,1,5.25,False,False,False,False
+42,75,Simple,['Numerical Data'],document_extraction,GPT,13,1,1.0,10.3,0.23076923076923078,0.15384615384615385,0.07692307692307693,0,False,False,1,5.769230769230769,False,False,False,False
+43,73,Simple,['Text'],document_extraction,GPT,13,1,0.9230769230769231,9.2,0.3076923076923077,0.15384615384615385,0.0,0,False,False,1,5.615384615384615,False,False,False,False
+44,93,Simple,['Text'],document_extraction,GPT,16,1,0.875,8.0,0.25,0.125,0.0625,0,False,False,1,5.8125,False,False,False,False
+45,82,Simple,['Text'],document_extraction,GPT,14,1,0.8571428571428571,7.2,0.21428571428571427,0.21428571428571427,0.0,0,False,False,1,5.857142857142857,False,False,False,False
+46,83,Simple,"['Text', 'Numerical Data']",document_extraction,GPT,15,1,0.9333333333333333,10.7,0.3333333333333333,0.13333333333333333,0.0,0,False,False,1,5.533333333333333,False,False,False,False
+47,75,Simple,['Numerical Data'],document_extraction,GPT,13,1,1.0,10.3,0.23076923076923078,0.15384615384615385,0.07692307692307693,0,False,False,1,5.769230769230769,False,False,False,False
+48,83,Simple,"['Text', 'Numerical Data']",document_extraction,GPT,14,1,0.9285714285714286,10.7,0.35714285714285715,0.14285714285714285,0.0,0,False,False,1,5.928571428571429,False,False,False,False
+49,77,Simple,"['Text', 'Numerical Data']",document_extraction,GPT,15,1,0.8666666666666667,6.4,0.3333333333333333,0.06666666666666667,0.0,0,False,False,1,5.133333333333334,False,False,False,False
+50,77,Simple,['Dates & Timestamps'],document_extraction,GPT,15,1,0.8666666666666667,6.4,0.26666666666666666,0.13333333333333333,0.0,1,False,False,1,5.133333333333334,False,False,False,False
+51,70,Simple,"['Graphs & Charts', 'Numerical Data']",document_extraction,GPT,14,1,0.8571428571428571,6.0,0.35714285714285715,0.07142857142857142,0.0,0,False,False,1,5.0,False,False,False,False
+52,83,Simple,['Text'],document_extraction,GPT,15,1,0.8666666666666667,8.8,0.3333333333333333,0.13333333333333333,0.0,0,False,False,1,5.533333333333333,False,False,False,False
+53,73,Simple,['Numerical Data'],document_extraction,GPT,14,1,0.8571428571428571,8.4,0.21428571428571427,0.14285714285714285,0.07142857142857142,0,False,False,1,5.214285714285714,False,False,False,False
+54,81,Simple,"['Text', 'Numerical Data']",document_extraction,GPT,14,1,0.9285714285714286,9.5,0.35714285714285715,0.14285714285714285,0.0,0,False,False,1,5.785714285714286,False,False,False,False
+55,63,Simple,['Text'],document_extraction,GPT,12,1,0.8333333333333334,6.4,0.25,0.16666666666666666,0.0,0,False,False,1,5.25,False,False,False,False
+56,53,Simple,['Equations & Formulas'],document_extraction,GPT,10,1,0.9,6.8,0.2,0.2,0.0,0,False,False,1,5.3,False,False,False,False
+57,83,Simple,"['Text', 'Numerical Data']",document_extraction,GPT,15,1,0.9333333333333333,10.7,0.3333333333333333,0.13333333333333333,0.0,0,False,False,1,5.533333333333333,False,False,False,False
+58,63,Simple,['Text'],document_extraction,GPT,12,1,0.8333333333333334,6.4,0.25,0.16666666666666666,0.0,0,False,False,1,5.25,False,False,False,False
+59,75,Simple,['Numerical Data'],document_extraction,GPT,13,1,1.0,10.3,0.23076923076923078,0.15384615384615385,0.07692307692307693,0,False,False,1,5.769230769230769,False,False,False,False
+60,73,Simple,['Text'],document_extraction,GPT,13,1,0.9230769230769231,9.2,0.3076923076923077,0.15384615384615385,0.0,0,False,False,1,5.615384615384615,False,False,False,False
+61,93,Simple,['Text'],document_extraction,GPT,16,1,0.875,8.0,0.25,0.125,0.0625,0,False,False,1,5.8125,False,False,False,False
+62,82,Simple,['Text'],document_extraction,GPT,14,1,0.8571428571428571,7.2,0.21428571428571427,0.21428571428571427,0.0,0,False,False,1,5.857142857142857,False,False,False,False
+63,83,Simple,"['Text', 'Numerical Data']",document_extraction,GPT,15,1,0.9333333333333333,10.7,0.3333333333333333,0.13333333333333333,0.0,0,False,False,1,5.533333333333333,False,False,False,False
+64,115,Simple,Numerical Data,quantitative_analysis,Claude,21,1,0.9047619047619048,11.9,0.2857142857142857,0.09523809523809523,0.09523809523809523,2,False,True,1,5.476190476190476,True,False,False,False
+65,81,Medium,Numerical Data,quantitative_analysis,Claude,15,1,1.0,11.5,0.26666666666666666,0.2,0.06666666666666667,1,False,False,1,5.4,False,False,False,False
+66,116,Simple,Numerical Data,quantitative_analysis,Claude,27,1,0.8148148148148148,10.3,0.25925925925925924,0.07407407407407407,0.0,3,False,False,1,4.296296296296297,True,False,False,False
+67,116,Medium,Numerical Data,quantitative_analysis,Claude,25,1,0.96,11.1,0.32,0.08,0.04,2,False,False,1,4.64,True,False,False,False
+68,89,Complex,Numerical Data,quantitative_analysis,Claude,17,1,0.9411764705882353,12.3,0.23529411764705882,0.11764705882352941,0.11764705882352941,1,False,False,2,5.235294117647059,False,False,False,False
+69,102,Simple,Numerical Data,quantitative_analysis,Claude,22,1,0.9090909090909091,9.5,0.3181818181818182,0.045454545454545456,0.045454545454545456,4,False,False,1,4.636363636363637,True,False,False,False
+70,81,Medium,Numerical Data,quantitative_analysis,Claude,14,1,1.0,10.7,0.42857142857142855,0.07142857142857142,0.07142857142857142,1,False,False,1,5.785714285714286,False,False,False,False
+71,112,Simple,Numerical Data,quantitative_analysis,Claude,25,1,0.92,11.1,0.32,0.04,0.04,4,False,False,1,4.48,True,False,False,False
+72,66,Medium,Numerical Data,quantitative_analysis,Claude,14,1,1.0,8.8,0.21428571428571427,0.07142857142857142,0.07142857142857142,0,False,False,1,4.714285714285714,False,False,False,False
+73,122,Simple,Numerical Data,quantitative_analysis,Claude,24,1,0.875,11.9,0.3333333333333333,0.041666666666666664,0.08333333333333333,3,False,False,1,5.083333333333333,True,False,False,False
+74,82,Medium,Numerical Data,quantitative_analysis,Claude,15,1,0.9333333333333333,8.8,0.4,0.13333333333333333,0.06666666666666667,0,False,False,1,5.466666666666667,False,False,False,False
+75,123,Complex,Numerical Data,quantitative_analysis,Claude,22,1,0.9090909090909091,11.5,0.22727272727272727,0.18181818181818182,0.09090909090909091,0,False,False,2,5.590909090909091,False,False,False,False
+76,91,Simple,Numerical Data,quantitative_analysis,Claude,21,1,0.9047619047619048,6.8,0.2857142857142857,0.047619047619047616,0.047619047619047616,3,False,False,1,4.333333333333333,True,False,False,False
+77,90,Complex,Numerical Data,quantitative_analysis,Claude,15,1,1.0,11.1,0.3333333333333333,0.2,0.0,1,False,False,1,6.0,False,False,False,False
+78,97,Medium,Numerical Data,quantitative_analysis,Claude,15,1,1.0,14.7,0.3333333333333333,0.13333333333333333,0.06666666666666667,1,False,False,1,6.466666666666667,False,False,False,False
+79,87,Complex,Numerical Data,quantitative_analysis,Claude,13,1,0.9230769230769231,19.0,0.23076923076923078,0.15384615384615385,0.15384615384615385,1,False,False,1,6.6923076923076925,False,False,False,False
+80,90,Complex,Numerical Data,quantitative_analysis,Claude,17,1,0.9411764705882353,10.7,0.35294117647058826,0.17647058823529413,0.0,0,False,False,1,5.294117647058823,False,False,False,False
+81,87,Medium,Numerical Data,quantitative_analysis,Claude,14,1,0.9285714285714286,13.1,0.35714285714285715,0.14285714285714285,0.14285714285714285,0,False,False,1,6.214285714285714,False,False,False,False
+82,85,Simple,Numerical Data,quantitative_analysis,Claude,16,1,1.0,15.8,0.3125,0.125,0.0625,0,False,False,1,5.3125,False,False,False,False
+83,87,Medium,Numerical Data,quantitative_analysis,Claude,18,1,0.8888888888888888,10.3,0.1111111111111111,0.16666666666666666,0.0,1,False,False,1,4.833333333333333,False,False,False,False
+84,103,Medium,Numerical Data,quantitative_analysis,Claude,17,1,0.8235294117647058,17.0,0.17647058823529413,0.11764705882352941,0.0,0,False,False,1,6.0588235294117645,False,False,False,False
+85,88,Simple,Numerical Data,quantitative_analysis,Claude,18,1,0.9444444444444444,9.1,0.3333333333333333,0.16666666666666666,0.0,0,False,False,1,4.888888888888889,False,False,False,False
+86,91,Complex,Numerical Data,quantitative_analysis,Claude,16,1,0.9375,12.7,0.25,0.125,0.0625,1,False,False,2,5.6875,False,False,False,False
+87,76,Simple,Numerical Data,quantitative_analysis,Claude,14,1,0.8571428571428571,9.5,0.2857142857142857,0.07142857142857142,0.14285714285714285,1,False,False,1,5.428571428571429,False,False,False,False
+88,77,Medium,Numerical Data,quantitative_analysis,Claude,13,1,1.0,11.5,0.3076923076923077,0.15384615384615385,0.07692307692307693,0,False,False,1,5.923076923076923,False,False,False,False
+89,104,Medium,Numerical Data,quantitative_analysis,Claude,17,1,1.0,13.1,0.4117647058823529,0.058823529411764705,0.11764705882352941,1,False,False,1,6.117647058823529,False,False,False,False
+90,96,Complex,Numerical Data,quantitative_analysis,Claude,15,1,1.0,14.7,0.3333333333333333,0.2,0.06666666666666667,0,False,False,1,6.4,False,False,False,False
+91,79,Simple,Numerical Data,quantitative_analysis,Claude,15,1,0.9333333333333333,11.1,0.3333333333333333,0.13333333333333333,0.06666666666666667,2,False,False,1,5.266666666666667,False,False,False,False
+92,84,Medium,Numerical Data,quantitative_analysis,Claude,17,1,0.8235294117647058,8.0,0.17647058823529413,0.11764705882352941,0.058823529411764705,2,False,False,1,4.9411764705882355,False,False,False,False
+93,88,Complex,Numerical Data,quantitative_analysis,Claude,19,1,0.9473684210526315,10.3,0.42105263157894735,0.05263157894736842,0.0,1,False,False,1,4.631578947368421,True,False,False,False
+94,97,Simple,Numerical Data,quantitative_analysis,Claude,17,1,1.0,12.3,0.17647058823529413,0.11764705882352941,0.058823529411764705,0,False,False,1,5.705882352941177,False,False,False,False
+95,98,Complex,Numerical Data,quantitative_analysis,Claude,15,1,1.0,12.3,0.3333333333333333,0.13333333333333333,0.06666666666666667,1,False,False,1,6.533333333333333,False,False,False,False
+96,76,Simple,Numerical Data,quantitative_analysis,Claude,14,1,1.0,8.4,0.35714285714285715,0.14285714285714285,0.07142857142857142,0,False,False,1,5.428571428571429,False,False,False,False
+97,99,Simple,Numerical Data,quantitative_analysis,Claude,19,1,0.9473684210526315,11.9,0.15789473684210525,0.10526315789473684,0.10526315789473684,1,False,False,1,5.2105263157894735,False,False,False,False
+98,81,Medium,Numerical Data,quantitative_analysis,Claude,17,1,0.9411764705882353,8.8,0.11764705882352941,0.11764705882352941,0.058823529411764705,1,False,False,1,4.764705882352941,False,False,False,False
+99,72,Simple,Numerical Data,quantitative_analysis,Claude,11,1,1.0,14.3,0.36363636363636365,0.09090909090909091,0.09090909090909091,0,False,False,1,6.545454545454546,False,False,False,False
+100,96,Medium,Numerical Data,quantitative_analysis,Claude,16,1,0.9375,12.7,0.25,0.125,0.0,1,False,False,1,6.0,False,False,False,False
+101,92,Simple,Numerical Data,quantitative_analysis,Claude,16,1,1.0,15.4,0.25,0.1875,0.0,0,False,False,0,5.75,False,False,False,False
+102,80,Simple,Numerical Data,quantitative_analysis,Claude,14,1,0.9285714285714286,11.9,0.35714285714285715,0.07142857142857142,0.07142857142857142,0,False,False,1,5.714285714285714,False,False,False,False
+103,71,Complex,Numerical Data,quantitative_analysis,Claude,12,1,1.0,13.5,0.3333333333333333,0.16666666666666666,0.08333333333333333,1,False,False,1,5.916666666666667,False,False,False,False
+104,101,Medium,Numerical Data,quantitative_analysis,Claude,19,1,0.8947368421052632,11.1,0.3157894736842105,0.10526315789473684,0.0,1,False,False,2,5.315789473684211,False,False,False,False
+105,98,Medium,Numerical Data,quantitative_analysis,Claude,16,1,1.0,13.9,0.3125,0.125,0.125,0,False,False,1,6.125,False,False,False,False
+106,76,Simple,Numerical Data,quantitative_analysis,Claude,15,1,1.0,10.3,0.2,0.2,0.0,0,False,False,1,5.066666666666666,False,False,False,False
+107,80,Simple,Numerical Data,quantitative_analysis,Claude,15,1,0.9333333333333333,11.1,0.3333333333333333,0.13333333333333333,0.06666666666666667,2,False,False,1,5.333333333333333,False,False,False,False
+108,84,Medium,Numerical Data,quantitative_analysis,Claude,16,1,0.9375,10.7,0.25,0.1875,0.0,0,False,False,1,5.25,False,False,False,False
+109,91,Simple,Numerical Data,quantitative_analysis,Claude,17,1,0.8823529411764706,9.1,0.23529411764705882,0.11764705882352941,0.058823529411764705,2,False,False,1,5.352941176470588,False,False,False,False
+110,72,Complex,Numerical Data,quantitative_analysis,Claude,18,1,0.8888888888888888,6.4,0.3888888888888889,0.05555555555555555,0.0,1,False,False,1,4.0,True,False,False,False
+111,97,Simple,Numerical Data,quantitative_analysis,Claude,17,1,1.0,12.3,0.17647058823529413,0.11764705882352941,0.058823529411764705,0,False,False,1,5.705882352941177,False,False,False,False
+112,98,Complex,Numerical Data,quantitative_analysis,Claude,15,1,1.0,12.3,0.3333333333333333,0.13333333333333333,0.06666666666666667,1,False,False,1,6.533333333333333,False,False,False,False
+113,67,Simple,"['Text', 'Numerical Data', 'Graphs & Charts']",report_generation,Mistral,12,1,1.0,7.6,0.3333333333333333,0.08333333333333333,0.08333333333333333,2,False,True,1,5.583333333333333,True,False,False,False
+114,59,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,10,1,1.0,9.2,0.4,0.1,0.1,1,False,False,1,5.9,False,False,False,False
+115,53,Simple,"['Numerical Data', 'Tables']",report_generation,Mistral,9,1,1.0,12.3,0.1111111111111111,0.1111111111111111,0.2222222222222222,2,False,True,1,5.888888888888889,True,False,False,False
+116,53,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,10.3,0.3,0.1,0.1,1,False,False,1,5.3,False,False,False,False
+117,72,Simple,"['Text', 'Numerical Data', 'Graphs & Charts']",report_generation,Mistral,10,1,1.0,16.2,0.3,0.2,0.1,1,False,False,1,7.2,False,False,False,False
+118,81,Simple,"['Text', 'Numerical Data', 'Graphs & Charts']",report_generation,Mistral,16,1,0.75,6.0,0.375,0.125,0.125,3,False,False,1,5.0625,False,False,False,False
+119,59,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,11.5,0.4,0.1,0.1,1,False,False,1,5.9,False,False,False,False
+120,44,Simple,"['Numerical Data', 'Tables']",report_generation,Mistral,7,1,1.0,13.9,0.2857142857142857,0.14285714285714285,0.2857142857142857,1,False,False,1,6.285714285714286,False,False,False,False
+121,59,Simple,"['Text', 'Tables', 'Graphs & Charts']",report_generation,Mistral,10,1,1.0,11.5,0.3,0.1,0.2,1,False,False,1,5.9,False,False,False,False
+122,47,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,8.8,0.2222222222222222,0.1111111111111111,0.2222222222222222,1,False,False,1,5.222222222222222,False,False,False,False
+123,44,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,7,1,1.0,16.3,0.42857142857142855,0.14285714285714285,0.14285714285714285,1,False,False,1,6.285714285714286,False,False,False,False
+124,42,Simple,"['Text', 'Tables']",report_generation,Mistral,7,1,1.0,10.4,0.42857142857142855,0.14285714285714285,0.14285714285714285,1,False,False,0,6.0,False,False,False,False
+125,60,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,14.7,0.3333333333333333,0.2222222222222222,0.1111111111111111,1,False,False,1,6.666666666666667,False,False,False,False
+126,59,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,12.3,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.555555555555555,False,False,False,False
+127,36,Simple,"['Numerical Data', 'Tables']",report_generation,Mistral,6,1,1.0,14.7,0.3333333333333333,0.16666666666666666,0.16666666666666666,1,False,False,0,6.0,False,False,False,False
+128,63,Simple,"['Text', 'Tables']",report_generation,Mistral,11,1,1.0,11.9,0.36363636363636365,0.09090909090909091,0.09090909090909091,1,False,False,1,5.7272727272727275,False,False,False,False
+129,50,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,7,1,1.0,18.6,0.42857142857142855,0.14285714285714285,0.14285714285714285,1,False,False,1,7.142857142857143,False,False,False,False
+130,59,Simple,"['Text', 'Tables', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,14.7,0.3333333333333333,0.1111111111111111,0.2222222222222222,1,False,False,1,6.555555555555555,False,False,False,False
+131,52,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,12.3,0.3333333333333333,0.1111111111111111,0.2222222222222222,1,False,False,1,5.777777777777778,False,False,False,False
+132,50,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,14.3,0.25,0.125,0.25,1,False,False,1,6.25,False,False,False,False
+133,49,Simple,"['Text', 'Tables']",report_generation,Mistral,8,1,1.0,10.7,0.375,0.125,0.125,1,False,False,1,6.125,False,False,False,False
+134,46,Simple,"['Text', 'Tables']",report_generation,Mistral,8,1,1.0,10.7,0.375,0.125,0.125,1,False,False,1,5.75,False,False,False,False
+135,47,Simple,"['Text', 'Numerical Data', 'Tables']",report_generation,Mistral,8,1,1.0,10.7,0.375,0.125,0.125,1,False,False,1,5.875,False,False,False,False
+136,43,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,7.2,0.375,0.125,0.125,1,False,False,1,5.375,False,False,False,False
+137,47,Simple,"['Text', 'Tables']",report_generation,Mistral,8,1,1.0,9.6,0.375,0.125,0.125,1,False,False,1,5.875,False,False,False,False
+138,53,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,14.3,0.375,0.125,0.125,1,False,False,1,6.625,False,False,False,False
+139,51,Simple,"['Text', 'Tables']",report_generation,Mistral,8,1,1.0,15.5,0.375,0.125,0.125,1,False,False,0,6.375,False,False,False,False
+140,56,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.222222222222222,False,False,False,False
+141,49,Simple,"['Numerical Data', 'Tables']",report_generation,Mistral,8,1,1.0,14.3,0.375,0.125,0.125,1,False,False,1,6.125,False,False,False,False
+142,41,Simple,"['Text', 'Tables', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,6.0,0.375,0.125,0.125,1,False,False,1,5.125,False,False,False,False
+143,57,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,12.3,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.333333333333333,False,False,False,False
+144,44,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,9.6,0.375,0.125,0.125,1,False,False,1,5.5,False,False,False,False
+145,47,Simple,"['Numerical Data', 'Tables']",report_generation,Mistral,8,1,1.0,11.9,0.25,0.125,0.25,1,False,False,1,5.875,False,False,False,False
+146,48,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,8.8,0.3333333333333333,0.1111111111111111,0.1111111111111111,1,False,False,1,5.333333333333333,False,False,False,False
+147,45,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,9.6,0.375,0.125,0.125,1,False,False,1,5.625,False,False,False,False
+148,61,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,10.3,0.4,0.1,0.1,1,False,False,1,6.1,False,False,False,False
+149,52,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.777777777777778,False,False,False,False
+150,52,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,14.7,0.3333333333333333,0.1111111111111111,0.2222222222222222,1,False,False,1,5.777777777777778,False,False,False,False
+151,47,Simple,"['Text', 'Tables']",report_generation,Mistral,8,1,1.0,10.7,0.375,0.125,0.125,1,False,False,1,5.875,False,False,False,False
+152,53,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,12.3,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.888888888888889,False,False,False,False
+153,50,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,14.3,0.375,0.125,0.125,1,False,False,2,6.25,False,False,False,False
+154,53,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.888888888888889,False,False,False,False
+155,48,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,10.7,0.375,0.125,0.125,1,False,False,1,6.0,False,False,False,False
+156,58,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,21.4,0.25,0.125,0.25,1,False,False,1,7.25,False,False,False,False
+157,51,Simple,"['Text', 'Tables']",report_generation,Mistral,8,1,1.0,14.3,0.375,0.125,0.125,1,False,False,1,6.375,False,False,False,False
+158,49,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,6.4,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.444444444444445,False,False,False,False
+159,52,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,17.8,0.25,0.125,0.25,1,False,False,1,6.5,False,False,False,False
+160,50,Simple,"['Text', 'Tables']",report_generation,Mistral,8,1,1.0,15.5,0.25,0.125,0.25,1,False,False,1,6.25,False,False,False,False
+161,48,Simple,"['Text', 'Tables']",report_generation,Mistral,8,1,1.0,11.9,0.375,0.125,0.125,1,False,False,0,6.0,False,False,False,False
+162,50,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,14.3,0.375,0.125,0.125,1,False,False,1,6.25,False,False,False,False
+163,47,Simple,"['Text', 'Tables']",report_generation,Mistral,8,1,1.0,11.9,0.375,0.125,0.125,1,False,False,0,5.875,False,False,False,False
+164,45,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,10.0,0.3333333333333333,0.1111111111111111,0.1111111111111111,1,False,False,0,5.0,False,False,False,False
+165,45,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,10.7,0.125,0.25,0.125,1,False,False,1,5.625,False,False,False,False
+166,46,Simple,"['Text', 'Tables']",report_generation,Mistral,8,1,1.0,10.7,0.375,0.125,0.125,1,False,False,1,5.75,False,False,False,False
+167,46,Simple,"['Text', 'Tables']",report_generation,Mistral,8,1,1.0,10.7,0.375,0.125,0.125,1,False,False,1,5.75,False,False,False,False
+168,47,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,10.7,0.375,0.125,0.125,1,False,False,1,5.875,False,False,False,False
+169,49,Simple,"['Text', 'Tables']",report_generation,Mistral,8,1,1.0,11.9,0.375,0.125,0.125,1,False,False,1,6.125,False,False,False,False
+170,44,Simple,"['Text', 'Tables']",report_generation,Mistral,8,1,1.0,7.2,0.375,0.125,0.125,1,False,False,0,5.5,False,False,False,False
+171,44,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,9.6,0.375,0.125,0.125,1,False,False,1,5.5,False,False,False,False
+172,47,Simple,"['Text', 'Tables']",report_generation,Mistral,8,1,1.0,11.9,0.25,0.125,0.25,1,False,False,1,5.875,False,False,False,False
+173,53,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,10.0,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.888888888888889,False,False,False,False
+174,47,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,10.7,0.375,0.125,0.125,1,False,False,1,5.875,False,False,False,False
+175,59,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,17.0,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.555555555555555,False,False,False,False
+176,51,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.666666666666667,False,False,False,False
+177,48,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,14.3,0.375,0.125,0.125,1,False,False,1,6.0,False,False,False,False
+178,49,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,8.8,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.444444444444445,False,False,False,False
+179,64,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,11.5,0.4,0.1,0.1,1,False,False,1,6.4,False,False,False,False
+180,62,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,15.9,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.888888888888889,False,False,False,False
+181,50,Simple,"['Text', 'Tables']",report_generation,Mistral,8,1,1.0,11.9,0.375,0.125,0.125,1,False,False,1,6.25,False,False,False,False
+182,44,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,6.4,0.2222222222222222,0.2222222222222222,0.1111111111111111,1,False,False,1,4.888888888888889,False,False,False,False
+183,53,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,10.0,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.888888888888889,False,False,False,False
+184,55,Simple,"['Numerical Data', 'Tables']",report_generation,Mistral,9,1,1.0,11.1,0.3333333333333333,0.1111111111111111,0.2222222222222222,1,False,False,1,6.111111111111111,False,False,False,False
+185,43,Simple,"['Text', 'Tables']",report_generation,Mistral,8,1,1.0,9.6,0.375,0.125,0.125,1,False,False,1,5.375,False,False,False,False
+186,48,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,11.9,0.375,0.125,0.125,1,False,False,1,6.0,False,False,False,False
+187,53,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,12.3,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.888888888888889,False,False,False,False
+188,52,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.777777777777778,False,False,False,False
+189,61,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,15.9,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.777777777777778,False,False,False,False
+190,51,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,10.0,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.666666666666667,False,False,False,False
+191,61,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,9.2,0.4,0.1,0.1,1,False,False,1,6.1,False,False,False,False
+192,45,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,9.6,0.375,0.125,0.125,1,False,False,1,5.625,False,False,False,False
+193,61,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,14.7,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.777777777777778,False,False,False,False
+194,54,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.0,False,False,False,False
+195,60,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,14.7,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.666666666666667,False,False,False,False
+196,54,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.0,False,False,False,False
+197,55,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.111111111111111,False,False,False,False
+198,48,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,11.9,0.375,0.125,0.125,1,False,False,1,6.0,False,False,False,False
+199,60,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,17.0,0.3333333333333333,0.1111111111111111,0.2222222222222222,1,False,False,1,6.666666666666667,False,False,False,False
+200,50,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,8.8,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.555555555555555,False,False,False,False
+201,64,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,15.9,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,7.111111111111111,False,False,False,False
+202,57,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,12.3,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.333333333333333,False,False,False,False
+203,58,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,10.3,0.4,0.1,0.1,1,False,False,1,5.8,False,False,False,False
+204,56,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,14.7,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.222222222222222,False,False,False,False
+205,70,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,18.6,0.5,0.1,0.1,1,False,False,1,7.0,False,False,False,False
+206,48,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,10.0,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.333333333333333,False,False,False,False
+207,63,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,17.0,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,7.0,False,False,False,False
+208,61,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,11.5,0.5,0.1,0.1,1,False,False,1,6.1,False,False,False,False
+209,52,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.777777777777778,False,False,False,False
+210,42,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,9.6,0.375,0.125,0.125,1,False,False,1,5.25,False,False,False,False
+211,57,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,12.3,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.333333333333333,False,False,False,False
+212,53,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,10.0,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.888888888888889,False,False,False,False
+213,52,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,8.8,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.777777777777778,False,False,False,False
+214,52,Simple,"['Numerical Data', 'Tables']",report_generation,Mistral,9,1,1.0,11.1,0.3333333333333333,0.1111111111111111,0.2222222222222222,1,False,False,1,5.777777777777778,False,False,False,False
+215,57,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,14.7,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.333333333333333,False,False,False,False
+216,51,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.666666666666667,False,False,False,False
+217,70,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,18.6,0.5,0.1,0.1,1,False,False,1,7.0,False,False,False,False
+218,52,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.777777777777778,False,False,False,False
+219,61,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,15.9,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.777777777777778,False,False,False,False
+220,51,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,10.0,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.666666666666667,False,False,False,False
+221,61,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,9.2,0.4,0.1,0.1,1,False,False,1,6.1,False,False,False,False
+222,45,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,9.6,0.375,0.125,0.125,1,False,False,1,5.625,False,False,False,False
+223,61,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,14.7,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.777777777777778,False,False,False,False
+224,54,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.0,False,False,False,False
+225,60,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,14.7,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.666666666666667,False,False,False,False
+226,54,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.0,False,False,False,False
+227,55,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.111111111111111,False,False,False,False
+228,48,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,11.9,0.375,0.125,0.125,1,False,False,1,6.0,False,False,False,False
+229,60,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,17.0,0.3333333333333333,0.1111111111111111,0.2222222222222222,1,False,False,1,6.666666666666667,False,False,False,False
+230,50,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,8.8,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.555555555555555,False,False,False,False
+231,64,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,15.9,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,7.111111111111111,False,False,False,False
+232,57,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,12.3,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.333333333333333,False,False,False,False
+233,58,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,10.3,0.4,0.1,0.1,1,False,False,1,5.8,False,False,False,False
+234,56,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,14.7,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.222222222222222,False,False,False,False
+235,70,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,18.6,0.5,0.1,0.1,1,False,False,1,7.0,False,False,False,False
+236,48,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,10.0,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.333333333333333,False,False,False,False
+237,63,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,17.0,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,7.0,False,False,False,False
+238,61,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,11.5,0.5,0.1,0.1,1,False,False,1,6.1,False,False,False,False
+239,52,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.777777777777778,False,False,False,False
+240,42,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,9.6,0.375,0.125,0.125,1,False,False,1,5.25,False,False,False,False
+241,57,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,12.3,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.333333333333333,False,False,False,False
+242,53,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,10.0,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.888888888888889,False,False,False,False
+243,52,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,8.8,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.777777777777778,False,False,False,False
+244,52,Simple,"['Numerical Data', 'Tables']",report_generation,Mistral,9,1,1.0,11.1,0.3333333333333333,0.1111111111111111,0.2222222222222222,1,False,False,1,5.777777777777778,False,False,False,False
+245,57,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,14.7,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.333333333333333,False,False,False,False
+246,51,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.666666666666667,False,False,False,False
+247,70,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,18.6,0.5,0.1,0.1,1,False,False,1,7.0,False,False,False,False
+248,52,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.777777777777778,False,False,False,False
+249,61,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,15.9,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.777777777777778,False,False,False,False
+250,51,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,10.0,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.666666666666667,False,False,False,False
+251,61,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,9.2,0.4,0.1,0.1,1,False,False,1,6.1,False,False,False,False
+252,45,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,9.6,0.375,0.125,0.125,1,False,False,1,5.625,False,False,False,False
+253,61,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,14.7,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.777777777777778,False,False,False,False
+254,54,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.0,False,False,False,False
+255,60,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,14.7,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.666666666666667,False,False,False,False
+256,54,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.0,False,False,False,False
+257,55,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.111111111111111,False,False,False,False
+258,48,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,11.9,0.375,0.125,0.125,1,False,False,1,6.0,False,False,False,False
+259,60,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,17.0,0.3333333333333333,0.1111111111111111,0.2222222222222222,1,False,False,1,6.666666666666667,False,False,False,False
+260,50,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,8.8,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.555555555555555,False,False,False,False
+261,64,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,15.9,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,7.111111111111111,False,False,False,False
+262,57,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,12.3,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.333333333333333,False,False,False,False
+263,58,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,10.3,0.4,0.1,0.1,1,False,False,1,5.8,False,False,False,False
+264,56,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,14.7,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.222222222222222,False,False,False,False
+265,70,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,18.6,0.5,0.1,0.1,1,False,False,1,7.0,False,False,False,False
+266,48,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,10.0,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.333333333333333,False,False,False,False
+267,63,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,17.0,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,7.0,False,False,False,False
+268,61,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,11.5,0.5,0.1,0.1,1,False,False,1,6.1,False,False,False,False
+269,52,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.777777777777778,False,False,False,False
+270,42,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,9.6,0.375,0.125,0.125,1,False,False,1,5.25,False,False,False,False
+271,57,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,12.3,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.333333333333333,False,False,False,False
+272,53,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,10.0,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.888888888888889,False,False,False,False
+273,52,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,8.8,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.777777777777778,False,False,False,False
+274,52,Simple,"['Numerical Data', 'Tables']",report_generation,Mistral,9,1,1.0,11.1,0.3333333333333333,0.1111111111111111,0.2222222222222222,1,False,False,1,5.777777777777778,False,False,False,False
+275,57,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,14.7,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.333333333333333,False,False,False,False
+276,51,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.666666666666667,False,False,False,False
+277,70,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,18.6,0.5,0.1,0.1,1,False,False,1,7.0,False,False,False,False
+278,52,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.777777777777778,False,False,False,False
+279,61,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,15.9,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.777777777777778,False,False,False,False
+280,51,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,10.0,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,5.666666666666667,False,False,False,False
+281,61,Simple,"['Text', 'Tables']",report_generation,Mistral,10,1,1.0,9.2,0.4,0.1,0.1,1,False,False,1,6.1,False,False,False,False
+282,45,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,9.6,0.375,0.125,0.125,1,False,False,1,5.625,False,False,False,False
+283,61,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,14.7,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.777777777777778,False,False,False,False
+284,54,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.0,False,False,False,False
+285,60,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,14.7,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.666666666666667,False,False,False,False
+286,54,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.0,False,False,False,False
+287,55,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,9,1,1.0,11.1,0.4444444444444444,0.1111111111111111,0.1111111111111111,1,False,False,1,6.111111111111111,False,False,False,False
+288,48,Simple,"['Text', 'Graphs & Charts']",report_generation,Mistral,8,1,1.0,11.9,0.375,0.125,0.125,1,False,False,1,6.0,False,False,False,False
+289,60,Simple,"['Text', 'Tables']",report_generation,Mistral,9,1,1.0,17.0,0.3333333333333333,0.1111111111111111,0.2222222222222222,1,False,False,1,6.666666666666667,False,False,False,False
+290,40,Simple,Text,interactive_qa_chatbot,llma,9,1,0.8888888888888888,2.9,0.2222222222222222,0.0,0.1111111111111111,0,False,False,1,4.444444444444445,False,False,False,False
+291,69,Medium,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.15384615384615385,0.0,0,False,False,1,5.3076923076923075,False,False,False,False
+292,48,Simple,Text,interactive_qa_chatbot,llma,10,1,0.9,3.3,0.2,0.1,0.1,0,False,False,1,4.8,False,False,False,False
+293,43,Simple,Text,interactive_qa_chatbot,llma,9,1,1.0,5.2,0.2222222222222222,0.1111111111111111,0.0,0,False,False,0,4.777777777777778,False,False,False,False
+294,73,Medium,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.07692307692307693,0.07692307692307693,0,False,False,1,5.615384615384615,False,False,False,False
+295,48,Simple,Text,interactive_qa_chatbot,llma,10,1,1.0,6.8,0.2,0.1,0.1,0,False,False,0,4.8,False,False,False,False
+296,56,Medium,Text,interactive_qa_chatbot,llma,11,1,0.8181818181818182,6.0,0.2727272727272727,0.0,0.0,0,False,False,1,5.090909090909091,False,False,False,False
+297,56,Simple,Text,interactive_qa_chatbot,llma,12,1,0.8333333333333334,6.4,0.25,0.08333333333333333,0.0,0,False,False,1,4.666666666666667,False,False,False,False
+298,62,Medium,Numerical Data,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.3333333333333333,0.08333333333333333,0.0,0,False,False,1,5.166666666666667,False,False,False,False
+299,49,Simple,Text,interactive_qa_chatbot,llma,9,1,0.8888888888888888,6.4,0.2222222222222222,0.0,0.1111111111111111,0,False,False,1,5.444444444444445,False,False,False,False
+300,61,Simple,Text,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.25,0.08333333333333333,0.08333333333333333,0,False,False,1,5.083333333333333,False,False,False,False
+301,53,Medium,Text,interactive_qa_chatbot,llma,10,1,0.9,8.0,0.2,0.2,0.0,0,False,False,1,5.3,False,False,False,False
+302,42,Simple,Text,interactive_qa_chatbot,llma,9,1,0.8888888888888888,4.1,0.2222222222222222,0.0,0.1111111111111111,0,False,False,1,4.666666666666667,False,False,False,False
+303,44,Medium,Text,interactive_qa_chatbot,llma,9,1,0.8888888888888888,6.4,0.2222222222222222,0.0,0.1111111111111111,0,False,False,1,4.888888888888889,False,False,False,False
+304,64,Simple,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,6.8,0.23076923076923078,0.15384615384615385,0.0,0,False,False,1,4.923076923076923,False,False,False,False
+305,58,Simple,Text,interactive_qa_chatbot,llma,10,1,0.9,8.0,0.3,0.1,0.0,0,False,False,1,5.8,False,False,False,False
+306,40,Medium,Text,interactive_qa_chatbot,llma,9,1,0.8888888888888888,5.2,0.2222222222222222,0.1111111111111111,0.0,0,False,False,1,4.444444444444445,False,False,False,False
+307,44,Simple,Text,interactive_qa_chatbot,llma,9,1,0.8888888888888888,4.1,0.2222222222222222,0.0,0.1111111111111111,0,False,False,1,4.888888888888889,False,False,False,False
+308,57,Simple,Text,interactive_qa_chatbot,llma,10,1,0.9,8.0,0.2,0.1,0.1,0,False,False,1,5.7,False,False,False,False
+309,43,Simple,Text,interactive_qa_chatbot,llma,9,1,1.0,5.2,0.2222222222222222,0.1111111111111111,0.0,0,False,False,0,4.777777777777778,False,False,False,False
+310,42,Simple,Text,interactive_qa_chatbot,llma,9,1,0.8888888888888888,4.1,0.2222222222222222,0.0,0.1111111111111111,0,False,False,1,4.666666666666667,False,False,False,False
+311,44,Medium,Text,interactive_qa_chatbot,llma,9,1,0.8888888888888888,6.4,0.2222222222222222,0.0,0.1111111111111111,0,False,False,1,4.888888888888889,False,False,False,False
+312,64,Simple,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,6.8,0.23076923076923078,0.15384615384615385,0.0,0,False,False,1,4.923076923076923,False,False,False,False
+313,58,Simple,Text,interactive_qa_chatbot,llma,10,1,0.9,8.0,0.3,0.1,0.0,0,False,False,1,5.8,False,False,False,False
+314,40,Medium,Text,interactive_qa_chatbot,llma,9,1,0.8888888888888888,5.2,0.2222222222222222,0.1111111111111111,0.0,0,False,False,1,4.444444444444445,False,False,False,False
+315,44,Simple,Text,interactive_qa_chatbot,llma,9,1,0.8888888888888888,4.1,0.2222222222222222,0.0,0.1111111111111111,0,False,False,1,4.888888888888889,False,False,False,False
+316,57,Simple,Text,interactive_qa_chatbot,llma,10,1,0.9,8.0,0.2,0.1,0.1,0,False,False,1,5.7,False,False,False,False
+317,64,Simple,Text,interactive_qa_chatbot,llma,12,1,0.9166666666666666,7.6,0.25,0.08333333333333333,0.08333333333333333,0,False,False,1,5.333333333333333,False,False,False,False
+318,47,Simple,Text,interactive_qa_chatbot,llma,10,1,1.0,4.4,0.2,0.1,0.1,0,False,False,0,4.7,False,False,False,False
+319,48,Medium,Numerical Data,interactive_qa_chatbot,llma,10,1,0.9,4.4,0.2,0.1,0.1,0,False,False,1,4.8,False,False,False,False
+320,60,Simple,Numerical Data,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.25,0.08333333333333333,0.08333333333333333,0,False,False,2,5.0,False,False,False,False
+321,37,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,0.1,0.25,0.0,0.0,0,False,False,1,4.625,False,False,False,False
+322,69,Medium,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.15384615384615385,0.0,0,False,False,1,5.3076923076923075,False,False,False,False
+323,38,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,3.7,0.25,0.0,0.0,0,False,False,1,4.75,False,False,False,False
+324,49,Medium,Text,interactive_qa_chatbot,llma,11,1,0.9090909090909091,3.7,0.2727272727272727,0.0,0.09090909090909091,0,False,False,1,4.454545454545454,False,False,False,False
+325,53,Simple,Text,interactive_qa_chatbot,llma,10,1,0.9,9.2,0.2,0.2,0.0,0,False,False,1,5.3,False,False,False,False
+326,73,Simple,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.07692307692307693,0.07692307692307693,0,False,False,1,5.615384615384615,False,False,False,False
+327,62,Medium,Numerical Data,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.3333333333333333,0.08333333333333333,0.0,0,False,False,1,5.166666666666667,False,False,False,False
+328,49,Simple,Text,interactive_qa_chatbot,llma,9,1,0.8888888888888888,6.4,0.2222222222222222,0.0,0.1111111111111111,0,False,False,1,5.444444444444445,False,False,False,False
+329,47,Simple,Text,interactive_qa_chatbot,llma,10,1,1.0,4.4,0.2,0.1,0.1,0,False,False,0,4.7,False,False,False,False
+330,48,Medium,Numerical Data,interactive_qa_chatbot,llma,10,1,0.9,4.4,0.2,0.1,0.1,0,False,False,1,4.8,False,False,False,False
+331,60,Simple,Numerical Data,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.25,0.08333333333333333,0.08333333333333333,0,False,False,2,5.0,False,False,False,False
+332,37,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,0.1,0.25,0.0,0.0,0,False,False,1,4.625,False,False,False,False
+333,69,Medium,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.15384615384615385,0.0,0,False,False,1,5.3076923076923075,False,False,False,False
+334,38,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,3.7,0.25,0.0,0.0,0,False,False,1,4.75,False,False,False,False
+335,49,Medium,Text,interactive_qa_chatbot,llma,11,1,0.9090909090909091,3.7,0.2727272727272727,0.0,0.09090909090909091,0,False,False,1,4.454545454545454,False,False,False,False
+336,53,Simple,Text,interactive_qa_chatbot,llma,10,1,0.9,9.2,0.2,0.2,0.0,0,False,False,1,5.3,False,False,False,False
+337,73,Simple,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.07692307692307693,0.07692307692307693,0,False,False,1,5.615384615384615,False,False,False,False
+338,62,Medium,Numerical Data,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.3333333333333333,0.08333333333333333,0.0,0,False,False,1,5.166666666666667,False,False,False,False
+339,49,Simple,Text,interactive_qa_chatbot,llma,9,1,0.8888888888888888,6.4,0.2222222222222222,0.0,0.1111111111111111,0,False,False,1,5.444444444444445,False,False,False,False
+340,40,Simple,Text,interactive_qa_chatbot,llma,9,1,1.0,4.1,0.1111111111111111,0.1111111111111111,0.1111111111111111,0,False,False,0,4.444444444444445,False,False,False,False
+341,48,Medium,Numerical Data,interactive_qa_chatbot,llma,10,1,0.9,4.4,0.2,0.1,0.1,0,False,False,1,4.8,False,False,False,False
+342,60,Simple,Numerical Data,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.25,0.08333333333333333,0.08333333333333333,0,False,False,2,5.0,False,False,False,False
+343,37,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,0.1,0.25,0.0,0.0,0,False,False,1,4.625,False,False,False,False
+344,69,Medium,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.15384615384615385,0.0,0,False,False,1,5.3076923076923075,False,False,False,False
+345,38,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,3.7,0.25,0.0,0.0,0,False,False,1,4.75,False,False,False,False
+346,49,Medium,Text,interactive_qa_chatbot,llma,11,1,0.9090909090909091,3.7,0.2727272727272727,0.0,0.09090909090909091,0,False,False,1,4.454545454545454,False,False,False,False
+347,53,Simple,Text,interactive_qa_chatbot,llma,10,1,0.9,9.2,0.2,0.2,0.0,0,False,False,1,5.3,False,False,False,False
+348,73,Simple,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.07692307692307693,0.07692307692307693,0,False,False,1,5.615384615384615,False,False,False,False
+349,62,Medium,Numerical Data,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.3333333333333333,0.08333333333333333,0.0,0,False,False,1,5.166666666666667,False,False,False,False
+350,49,Simple,Text,interactive_qa_chatbot,llma,9,1,0.8888888888888888,6.4,0.2222222222222222,0.0,0.1111111111111111,0,False,False,1,5.444444444444445,False,False,False,False
+351,47,Simple,Text,interactive_qa_chatbot,llma,10,1,1.0,4.4,0.2,0.1,0.1,0,False,False,0,4.7,False,False,False,False
+352,48,Medium,Numerical Data,interactive_qa_chatbot,llma,10,1,0.9,4.4,0.2,0.1,0.1,0,False,False,1,4.8,False,False,False,False
+353,60,Simple,Numerical Data,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.25,0.08333333333333333,0.08333333333333333,0,False,False,2,5.0,False,False,False,False
+354,37,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,0.1,0.25,0.0,0.0,0,False,False,1,4.625,False,False,False,False
+355,69,Medium,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.15384615384615385,0.0,0,False,False,1,5.3076923076923075,False,False,False,False
+356,38,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,3.7,0.25,0.0,0.0,0,False,False,1,4.75,False,False,False,False
+357,49,Medium,Text,interactive_qa_chatbot,llma,11,1,0.9090909090909091,3.7,0.2727272727272727,0.0,0.09090909090909091,0,False,False,1,4.454545454545454,False,False,False,False
+358,53,Simple,Text,interactive_qa_chatbot,llma,10,1,0.9,9.2,0.2,0.2,0.0,0,False,False,1,5.3,False,False,False,False
+359,73,Simple,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.07692307692307693,0.07692307692307693,0,False,False,1,5.615384615384615,False,False,False,False
+360,64,Simple,Text,interactive_qa_chatbot,llma,12,1,0.9166666666666666,7.6,0.25,0.08333333333333333,0.08333333333333333,0,False,False,1,5.333333333333333,False,False,False,False
+361,47,Simple,Text,interactive_qa_chatbot,llma,10,1,1.0,4.4,0.2,0.1,0.1,0,False,False,0,4.7,False,False,False,False
+362,48,Medium,Numerical Data,interactive_qa_chatbot,llma,10,1,0.9,4.4,0.2,0.1,0.1,0,False,False,1,4.8,False,False,False,False
+363,60,Simple,Numerical Data,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.25,0.08333333333333333,0.08333333333333333,0,False,False,2,5.0,False,False,False,False
+364,37,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,0.1,0.25,0.0,0.0,0,False,False,1,4.625,False,False,False,False
+365,69,Medium,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.15384615384615385,0.0,0,False,False,1,5.3076923076923075,False,False,False,False
+366,38,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,3.7,0.25,0.0,0.0,0,False,False,1,4.75,False,False,False,False
+367,49,Medium,Text,interactive_qa_chatbot,llma,11,1,0.9090909090909091,3.7,0.2727272727272727,0.0,0.09090909090909091,0,False,False,1,4.454545454545454,False,False,False,False
+368,53,Simple,Text,interactive_qa_chatbot,llma,10,1,0.9,9.2,0.2,0.2,0.0,0,False,False,1,5.3,False,False,False,False
+369,73,Simple,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.07692307692307693,0.07692307692307693,0,False,False,1,5.615384615384615,False,False,False,False
+370,64,Simple,Text,interactive_qa_chatbot,llma,12,1,0.9166666666666666,7.6,0.25,0.08333333333333333,0.08333333333333333,0,False,False,1,5.333333333333333,False,False,False,False
+371,47,Simple,Text,interactive_qa_chatbot,llma,10,1,1.0,4.4,0.2,0.1,0.1,0,False,False,0,4.7,False,False,False,False
+372,48,Medium,Numerical Data,interactive_qa_chatbot,llma,10,1,0.9,4.4,0.2,0.1,0.1,0,False,False,1,4.8,False,False,False,False
+373,60,Simple,Numerical Data,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.25,0.08333333333333333,0.08333333333333333,0,False,False,2,5.0,False,False,False,False
+374,37,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,0.1,0.25,0.0,0.0,0,False,False,1,4.625,False,False,False,False
+375,69,Medium,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.15384615384615385,0.0,0,False,False,1,5.3076923076923075,False,False,False,False
+376,38,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,3.7,0.25,0.0,0.0,0,False,False,1,4.75,False,False,False,False
+377,49,Medium,Text,interactive_qa_chatbot,llma,11,1,0.9090909090909091,3.7,0.2727272727272727,0.0,0.09090909090909091,0,False,False,1,4.454545454545454,False,False,False,False
+378,53,Simple,Text,interactive_qa_chatbot,llma,10,1,0.9,9.2,0.2,0.2,0.0,0,False,False,1,5.3,False,False,False,False
+379,73,Simple,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.07692307692307693,0.07692307692307693,0,False,False,1,5.615384615384615,False,False,False,False
+380,64,Simple,Text,interactive_qa_chatbot,llma,12,1,0.9166666666666666,7.6,0.25,0.08333333333333333,0.08333333333333333,0,False,False,1,5.333333333333333,False,False,False,False
+381,47,Simple,Text,interactive_qa_chatbot,llma,10,1,1.0,4.4,0.2,0.1,0.1,0,False,False,0,4.7,False,False,False,False
+382,48,Medium,Numerical Data,interactive_qa_chatbot,llma,10,1,0.9,4.4,0.2,0.1,0.1,0,False,False,1,4.8,False,False,False,False
+383,60,Simple,Numerical Data,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.25,0.08333333333333333,0.08333333333333333,0,False,False,2,5.0,False,False,False,False
+384,37,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,0.1,0.25,0.0,0.0,0,False,False,1,4.625,False,False,False,False
+385,69,Medium,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.15384615384615385,0.0,0,False,False,1,5.3076923076923075,False,False,False,False
+386,38,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,3.7,0.25,0.0,0.0,0,False,False,1,4.75,False,False,False,False
+387,49,Medium,Text,interactive_qa_chatbot,llma,11,1,0.9090909090909091,3.7,0.2727272727272727,0.0,0.09090909090909091,0,False,False,1,4.454545454545454,False,False,False,False
+388,53,Simple,Text,interactive_qa_chatbot,llma,10,1,0.9,9.2,0.2,0.2,0.0,0,False,False,1,5.3,False,False,False,False
+389,73,Simple,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.07692307692307693,0.07692307692307693,0,False,False,1,5.615384615384615,False,False,False,False
+390,64,Simple,Text,interactive_qa_chatbot,llma,12,1,0.9166666666666666,7.6,0.25,0.08333333333333333,0.08333333333333333,0,False,False,1,5.333333333333333,False,False,False,False
+391,47,Simple,Text,interactive_qa_chatbot,llma,10,1,1.0,4.4,0.2,0.1,0.1,0,False,False,0,4.7,False,False,False,False
+392,48,Medium,Numerical Data,interactive_qa_chatbot,llma,10,1,0.9,4.4,0.2,0.1,0.1,0,False,False,1,4.8,False,False,False,False
+393,60,Simple,Numerical Data,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.25,0.08333333333333333,0.08333333333333333,0,False,False,2,5.0,False,False,False,False
+394,37,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,0.1,0.25,0.0,0.0,0,False,False,1,4.625,False,False,False,False
+395,69,Medium,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.15384615384615385,0.0,0,False,False,1,5.3076923076923075,False,False,False,False
+396,38,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,3.7,0.25,0.0,0.0,0,False,False,1,4.75,False,False,False,False
+397,49,Medium,Text,interactive_qa_chatbot,llma,11,1,0.9090909090909091,3.7,0.2727272727272727,0.0,0.09090909090909091,0,False,False,1,4.454545454545454,False,False,False,False
+398,53,Simple,Text,interactive_qa_chatbot,llma,10,1,0.9,9.2,0.2,0.2,0.0,0,False,False,1,5.3,False,False,False,False
+399,73,Simple,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.07692307692307693,0.07692307692307693,0,False,False,1,5.615384615384615,False,False,False,False
+400,64,Simple,Text,interactive_qa_chatbot,llma,12,1,0.9166666666666666,7.6,0.25,0.08333333333333333,0.08333333333333333,0,False,False,1,5.333333333333333,False,False,False,False
+401,47,Simple,Text,interactive_qa_chatbot,llma,10,1,1.0,4.4,0.2,0.1,0.1,0,False,False,0,4.7,False,False,False,False
+402,48,Medium,Numerical Data,interactive_qa_chatbot,llma,10,1,0.9,4.4,0.2,0.1,0.1,0,False,False,1,4.8,False,False,False,False
+403,60,Simple,Numerical Data,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.25,0.08333333333333333,0.08333333333333333,0,False,False,2,5.0,False,False,False,False
+404,37,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,0.1,0.25,0.0,0.0,0,False,False,1,4.625,False,False,False,False
+405,69,Medium,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.15384615384615385,0.0,0,False,False,1,5.3076923076923075,False,False,False,False
+406,38,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,3.7,0.25,0.0,0.0,0,False,False,1,4.75,False,False,False,False
+407,49,Medium,Text,interactive_qa_chatbot,llma,11,1,0.9090909090909091,3.7,0.2727272727272727,0.0,0.09090909090909091,0,False,False,1,4.454545454545454,False,False,False,False
+408,53,Simple,Text,interactive_qa_chatbot,llma,10,1,0.9,9.2,0.2,0.2,0.0,0,False,False,1,5.3,False,False,False,False
+409,73,Simple,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.07692307692307693,0.07692307692307693,0,False,False,1,5.615384615384615,False,False,False,False
+410,64,Simple,Text,interactive_qa_chatbot,llma,12,1,0.9166666666666666,7.6,0.25,0.08333333333333333,0.08333333333333333,0,False,False,1,5.333333333333333,False,False,False,False
+411,47,Simple,Text,interactive_qa_chatbot,llma,10,1,1.0,4.4,0.2,0.1,0.1,0,False,False,0,4.7,False,False,False,False
+412,48,Medium,Numerical Data,interactive_qa_chatbot,llma,10,1,0.9,4.4,0.2,0.1,0.1,0,False,False,1,4.8,False,False,False,False
+413,60,Simple,Numerical Data,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.25,0.08333333333333333,0.08333333333333333,0,False,False,2,5.0,False,False,False,False
+414,37,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,0.1,0.25,0.0,0.0,0,False,False,1,4.625,False,False,False,False
+415,69,Medium,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.15384615384615385,0.0,0,False,False,1,5.3076923076923075,False,False,False,False
+416,38,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,3.7,0.25,0.0,0.0,0,False,False,1,4.75,False,False,False,False
+417,49,Medium,Text,interactive_qa_chatbot,llma,11,1,0.9090909090909091,3.7,0.2727272727272727,0.0,0.09090909090909091,0,False,False,1,4.454545454545454,False,False,False,False
+418,53,Simple,Text,interactive_qa_chatbot,llma,10,1,0.9,9.2,0.2,0.2,0.0,0,False,False,1,5.3,False,False,False,False
+419,73,Simple,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.07692307692307693,0.07692307692307693,0,False,False,1,5.615384615384615,False,False,False,False
+420,64,Simple,Text,interactive_qa_chatbot,llma,12,1,0.9166666666666666,7.6,0.25,0.08333333333333333,0.08333333333333333,0,False,False,1,5.333333333333333,False,False,False,False
+421,47,Simple,Text,interactive_qa_chatbot,llma,10,1,1.0,4.4,0.2,0.1,0.1,0,False,False,0,4.7,False,False,False,False
+422,48,Medium,Numerical Data,interactive_qa_chatbot,llma,10,1,0.9,4.4,0.2,0.1,0.1,0,False,False,1,4.8,False,False,False,False
+423,60,Simple,Numerical Data,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.25,0.08333333333333333,0.08333333333333333,0,False,False,2,5.0,False,False,False,False
+424,37,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,0.1,0.25,0.0,0.0,0,False,False,1,4.625,False,False,False,False
+425,69,Medium,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.15384615384615385,0.0,0,False,False,1,5.3076923076923075,False,False,False,False
+426,38,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,3.7,0.25,0.0,0.0,0,False,False,1,4.75,False,False,False,False
+427,49,Medium,Text,interactive_qa_chatbot,llma,11,1,0.9090909090909091,3.7,0.2727272727272727,0.0,0.09090909090909091,0,False,False,1,4.454545454545454,False,False,False,False
+428,53,Simple,Text,interactive_qa_chatbot,llma,10,1,0.9,9.2,0.2,0.2,0.0,0,False,False,1,5.3,False,False,False,False
+429,73,Simple,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.07692307692307693,0.07692307692307693,0,False,False,1,5.615384615384615,False,False,False,False
+430,64,Simple,Text,interactive_qa_chatbot,llma,12,1,0.9166666666666666,7.6,0.25,0.08333333333333333,0.08333333333333333,0,False,False,1,5.333333333333333,False,False,False,False
+431,47,Simple,Text,interactive_qa_chatbot,llma,10,1,1.0,4.4,0.2,0.1,0.1,0,False,False,0,4.7,False,False,False,False
+432,48,Medium,Numerical Data,interactive_qa_chatbot,llma,10,1,0.9,4.4,0.2,0.1,0.1,0,False,False,1,4.8,False,False,False,False
+433,60,Simple,Numerical Data,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.25,0.08333333333333333,0.08333333333333333,0,False,False,2,5.0,False,False,False,False
+434,37,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,0.1,0.25,0.0,0.0,0,False,False,1,4.625,False,False,False,False
+435,69,Medium,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.15384615384615385,0.0,0,False,False,1,5.3076923076923075,False,False,False,False
+436,38,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,3.7,0.25,0.0,0.0,0,False,False,1,4.75,False,False,False,False
+437,49,Medium,Text,interactive_qa_chatbot,llma,11,1,0.9090909090909091,3.7,0.2727272727272727,0.0,0.09090909090909091,0,False,False,1,4.454545454545454,False,False,False,False
+438,53,Simple,Text,interactive_qa_chatbot,llma,10,1,0.9,9.2,0.2,0.2,0.0,0,False,False,1,5.3,False,False,False,False
+439,73,Simple,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.07692307692307693,0.07692307692307693,0,False,False,1,5.615384615384615,False,False,False,False
+440,64,Simple,Text,interactive_qa_chatbot,llma,12,1,0.9166666666666666,7.6,0.25,0.08333333333333333,0.08333333333333333,0,False,False,1,5.333333333333333,False,False,False,False
+441,47,Simple,Text,interactive_qa_chatbot,llma,10,1,1.0,4.4,0.2,0.1,0.1,0,False,False,0,4.7,False,False,False,False
+442,48,Medium,Numerical Data,interactive_qa_chatbot,llma,10,1,0.9,4.4,0.2,0.1,0.1,0,False,False,1,4.8,False,False,False,False
+443,60,Simple,Numerical Data,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.25,0.08333333333333333,0.08333333333333333,0,False,False,2,5.0,False,False,False,False
+444,37,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,0.1,0.25,0.0,0.0,0,False,False,1,4.625,False,False,False,False
+445,69,Medium,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.15384615384615385,0.0,0,False,False,1,5.3076923076923075,False,False,False,False
+446,38,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,3.7,0.25,0.0,0.0,0,False,False,1,4.75,False,False,False,False
+447,49,Medium,Text,interactive_qa_chatbot,llma,11,1,0.9090909090909091,3.7,0.2727272727272727,0.0,0.09090909090909091,0,False,False,1,4.454545454545454,False,False,False,False
+448,53,Simple,Text,interactive_qa_chatbot,llma,10,1,0.9,9.2,0.2,0.2,0.0,0,False,False,1,5.3,False,False,False,False
+449,73,Simple,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.07692307692307693,0.07692307692307693,0,False,False,1,5.615384615384615,False,False,False,False
+450,64,Simple,Text,interactive_qa_chatbot,llma,12,1,0.9166666666666666,7.6,0.25,0.08333333333333333,0.08333333333333333,0,False,False,1,5.333333333333333,False,False,False,False
+451,47,Simple,Text,interactive_qa_chatbot,llma,10,1,1.0,4.4,0.2,0.1,0.1,0,False,False,0,4.7,False,False,False,False
+452,48,Medium,Numerical Data,interactive_qa_chatbot,llma,10,1,0.9,4.4,0.2,0.1,0.1,0,False,False,1,4.8,False,False,False,False
+453,60,Simple,Numerical Data,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.25,0.08333333333333333,0.08333333333333333,0,False,False,2,5.0,False,False,False,False
+454,37,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,0.1,0.25,0.0,0.0,0,False,False,1,4.625,False,False,False,False
+455,69,Medium,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.15384615384615385,0.0,0,False,False,1,5.3076923076923075,False,False,False,False
+456,38,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,3.7,0.25,0.0,0.0,0,False,False,1,4.75,False,False,False,False
+457,49,Medium,Text,interactive_qa_chatbot,llma,11,1,0.9090909090909091,3.7,0.2727272727272727,0.0,0.09090909090909091,0,False,False,1,4.454545454545454,False,False,False,False
+458,53,Simple,Text,interactive_qa_chatbot,llma,10,1,0.9,9.2,0.2,0.2,0.0,0,False,False,1,5.3,False,False,False,False
+459,73,Simple,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.07692307692307693,0.07692307692307693,0,False,False,1,5.615384615384615,False,False,False,False
+460,64,Simple,Text,interactive_qa_chatbot,llma,12,1,0.9166666666666666,7.6,0.25,0.08333333333333333,0.08333333333333333,0,False,False,1,5.333333333333333,False,False,False,False
+461,47,Simple,Text,interactive_qa_chatbot,llma,10,1,1.0,4.4,0.2,0.1,0.1,0,False,False,0,4.7,False,False,False,False
+462,48,Medium,Numerical Data,interactive_qa_chatbot,llma,10,1,0.9,4.4,0.2,0.1,0.1,0,False,False,1,4.8,False,False,False,False
+463,60,Simple,Numerical Data,interactive_qa_chatbot,llma,12,1,0.9166666666666666,6.4,0.25,0.08333333333333333,0.08333333333333333,0,False,False,2,5.0,False,False,False,False
+464,37,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,0.1,0.25,0.0,0.0,0,False,False,1,4.625,False,False,False,False
+465,69,Medium,Text,interactive_qa_chatbot,llma,13,1,0.8461538461538461,9.2,0.23076923076923078,0.15384615384615385,0.0,0,False,False,1,5.3076923076923075,False,False,False,False
+466,38,Simple,Text,interactive_qa_chatbot,llma,8,1,0.875,3.7,0.25,0.0,0.0,0,False,False,1,4.75,False,False,False,False
+467,84,Simple,Text,multi_document_summarization,GPT,16,1,0.9375,8.0,0.1875,0.125,0.125,1,False,False,1,5.25,True,False,False,False
+468,86,Simple,Text,multi_document_summarization,GPT,15,1,1.0,11.9,0.26666666666666666,0.13333333333333333,0.13333333333333333,1,False,False,1,5.733333333333333,True,False,False,False
+469,93,Simple,Text,multi_document_summarization,GPT,14,1,1.0,13.9,0.2857142857142857,0.14285714285714285,0.21428571428571427,0,False,False,1,6.642857142857143,False,False,False,False
+470,82,Simple,Text,multi_document_summarization,GPT,14,1,0.9285714285714286,9.5,0.21428571428571427,0.14285714285714285,0.07142857142857142,1,False,False,1,5.857142857142857,True,False,False,False
+471,89,Simple,Text,multi_document_summarization,GPT,16,1,1.0,12.3,0.1875,0.125,0.125,1,False,False,1,5.5625,True,False,False,False
+472,91,Simple,Text,multi_document_summarization,GPT,15,1,0.9333333333333333,11.9,0.26666666666666666,0.13333333333333333,0.13333333333333333,1,False,False,1,6.066666666666666,True,False,False,False
+473,90,Simple,Text,multi_document_summarization,GPT,17,1,1.0,10.3,0.17647058823529413,0.11764705882352941,0.17647058823529413,1,False,False,1,5.294117647058823,True,False,False,False
+474,76,Simple,Text,multi_document_summarization,GPT,14,1,0.9285714285714286,10.3,0.21428571428571427,0.14285714285714285,0.07142857142857142,1,False,False,1,5.428571428571429,True,False,False,False
+475,90,Simple,Text,multi_document_summarization,GPT,14,1,1.0,13.9,0.2857142857142857,0.14285714285714285,0.21428571428571427,0,False,False,1,6.428571428571429,False,False,False,False
+476,85,Simple,Text,multi_document_summarization,GPT,17,1,0.9411764705882353,8.0,0.17647058823529413,0.11764705882352941,0.11764705882352941,1,False,False,1,5.0,True,False,False,False
+477,77,Medium,Text,multi_document_summarization,GPT,14,1,0.9285714285714286,10.3,0.21428571428571427,0.14285714285714285,0.07142857142857142,1,False,False,1,5.5,True,False,False,False
+478,91,Medium,Text,multi_document_summarization,GPT,17,1,1.0,10.3,0.17647058823529413,0.11764705882352941,0.17647058823529413,1,False,False,1,5.352941176470588,True,False,False,False
+479,85,Medium,Text,multi_document_summarization,GPT,14,1,1.0,16.2,0.21428571428571427,0.14285714285714285,0.14285714285714285,1,False,False,1,6.071428571428571,True,False,False,False
+480,86,Medium,Text,multi_document_summarization,GPT,17,1,0.9411764705882353,8.0,0.17647058823529413,0.11764705882352941,0.11764705882352941,1,False,False,1,5.0588235294117645,True,False,False,False
+481,85,Medium,Text,multi_document_summarization,GPT,14,1,0.9285714285714286,11.5,0.2857142857142857,0.14285714285714285,0.07142857142857142,1,False,False,1,6.071428571428571,True,False,False,False
+482,108,Medium,Text,multi_document_summarization,GPT,17,1,0.9411764705882353,15.0,0.17647058823529413,0.17647058823529413,0.17647058823529413,1,False,False,1,6.352941176470588,True,False,False,False
+483,80,Medium,Text,multi_document_summarization,GPT,14,1,1.0,11.5,0.2857142857142857,0.14285714285714285,0.14285714285714285,1,False,False,1,5.714285714285714,True,False,False,False
+484,90,Medium,Text,multi_document_summarization,GPT,15,1,0.9333333333333333,13.1,0.3333333333333333,0.13333333333333333,0.06666666666666667,1,False,False,1,6.0,True,False,False,False
+485,87,Medium,Text,multi_document_summarization,GPT,16,1,1.0,11.1,0.1875,0.125,0.1875,1,False,False,1,5.4375,True,False,False,False
+486,88,Medium,Text,multi_document_summarization,GPT,16,1,0.9375,9.9,0.25,0.125,0.125,1,False,False,1,5.5,True,False,False,False
+487,101,Complex,Text,multi_document_summarization,GPT,17,1,0.9411764705882353,12.7,0.17647058823529413,0.17647058823529413,0.17647058823529413,1,False,False,1,5.9411764705882355,True,False,False,False
+488,88,Complex,Text,multi_document_summarization,GPT,14,1,1.0,13.9,0.2857142857142857,0.14285714285714285,0.14285714285714285,1,False,False,1,6.285714285714286,True,False,False,False
+489,91,Complex,Text,multi_document_summarization,GPT,15,1,0.9333333333333333,13.1,0.3333333333333333,0.13333333333333333,0.06666666666666667,1,False,False,1,6.066666666666666,True,False,False,False
+490,87,Complex,Text,multi_document_summarization,GPT,16,1,1.0,11.1,0.1875,0.125,0.1875,1,False,False,1,5.4375,True,False,False,False
+491,88,Complex,Text,multi_document_summarization,GPT,16,1,0.9375,9.9,0.25,0.125,0.125,1,False,False,1,5.5,True,False,False,False
+492,85,Complex,Text,multi_document_summarization,GPT,14,1,0.9285714285714286,11.5,0.2857142857142857,0.14285714285714285,0.07142857142857142,1,False,False,1,6.071428571428571,True,False,False,False
+493,85,Complex,Text,multi_document_summarization,GPT,14,1,1.0,16.2,0.21428571428571427,0.14285714285714285,0.14285714285714285,1,False,False,1,6.071428571428571,True,False,False,False
+494,86,Complex,Text,multi_document_summarization,GPT,17,1,0.9411764705882353,8.0,0.17647058823529413,0.11764705882352941,0.11764705882352941,1,False,False,1,5.0588235294117645,True,False,False,False
+495,91,Complex,Text,multi_document_summarization,GPT,17,1,1.0,10.3,0.17647058823529413,0.11764705882352941,0.17647058823529413,1,False,False,1,5.352941176470588,True,False,False,False
+496,77,Complex,Text,multi_document_summarization,GPT,14,1,0.9285714285714286,10.3,0.21428571428571427,0.14285714285714285,0.07142857142857142,1,False,False,1,5.5,True,False,False,False
+497,93,Complex,Text,multi_document_summarization,GPT,16,1,0.9375,12.3,0.3125,0.125,0.0625,1,False,False,1,5.8125,True,False,False,False
+498,92,Complex,Text,multi_document_summarization,GPT,17,1,1.0,10.3,0.17647058823529413,0.11764705882352941,0.17647058823529413,1,False,False,1,5.411764705882353,True,False,False,False
+499,85,Complex,Text,multi_document_summarization,GPT,14,1,1.0,16.2,0.21428571428571427,0.14285714285714285,0.14285714285714285,1,False,False,1,6.071428571428571,True,False,False,False
+500,94,Complex,Text,multi_document_summarization,GPT,17,1,0.9411764705882353,10.3,0.23529411764705882,0.11764705882352941,0.11764705882352941,1,False,False,1,5.529411764705882,True,False,False,False
+501,85,Complex,Text,multi_document_summarization,GPT,14,1,0.9285714285714286,11.5,0.2857142857142857,0.14285714285714285,0.07142857142857142,1,False,False,1,6.071428571428571,True,False,False,False
+502,86,Complex,Text,multi_document_summarization,GPT,15,1,0.9333333333333333,10.7,0.26666666666666666,0.13333333333333333,0.06666666666666667,1,False,False,1,5.733333333333333,True,False,False,False
+503,95,Complex,Text,multi_document_summarization,GPT,15,1,1.0,11.9,0.26666666666666666,0.13333333333333333,0.13333333333333333,1,False,False,1,6.333333333333333,True,False,False,False
+504,100,Complex,Text,multi_document_summarization,GPT,17,1,0.9411764705882353,11.5,0.17647058823529413,0.11764705882352941,0.17647058823529413,1,False,False,1,5.882352941176471,True,False,False,False
+505,93,Complex,Text,multi_document_summarization,GPT,16,1,0.9375,12.3,0.3125,0.125,0.0625,1,False,False,1,5.8125,True,False,False,False
+506,91,Complex,Text,multi_document_summarization,GPT,17,1,1.0,10.3,0.17647058823529413,0.11764705882352941,0.17647058823529413,1,False,False,1,5.352941176470588,True,False,False,False

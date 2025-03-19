@@ -1,4 +1,40 @@
-def retrain_model():
+import pandas as pd
+import numpy as np
+import joblib
+import json
+from datetime import datetime
+
+
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+from imblearn.over_sampling import SMOTE
+from xgboost import XGBClassifier
+from sklearn.metrics import accuracy_score, classification_report
+from xgboost import XGBClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+from sklearn.metrics import accuracy_score
+from xgboost import XGBClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+
+
+LOG_FILE = "predictions_log.json"
+FEEDBACK_LOG_FILE = "feedback_log.json"
+
+
+# Load trained models
+clf = joblib.load("llm_classifier.pkl")
+ohe = joblib.load("onehot_encoder.pkl")
+le = joblib.load("label_encoder.pkl")
+scaler = joblib.load("scaler.pkl")
+
+X_train_subset = pd.read_csv("X_train_subset.csv")
+
+
+
+def retrain_model_without_metrics():
     # Load logs
     with open(LOG_FILE, "r") as f:
         logs = json.load(f)
@@ -39,4 +75,51 @@ def retrain_model():
 
     print("Model retrained and saved!")
 
-retrain_model()
+
+def retrain_model_with_metrics(previous_file="logs/llm_selection_dataset.csv", feedback_file="logs/llm_feedback_scores.csv"):
+
+    # Load previous LLM selection data
+    df = pd.read_csv(previous_file)
+
+    # Load post-hoc evaluation scores
+    feedback_scores = pd.read_csv(feedback_file)
+
+    # Compute Moving Average Scores for Each LLM
+    llm_performance = feedback_scores.groupby("predicted_llm")[
+        ["faithfulness_score", "bleu_score", "rouge_score"]
+    ].mean().reset_index()
+
+    # Merge LLM performance data with training set
+    df = df.merge(llm_performance, left_on="LLM", right_on="predicted_llm", how="left")
+
+    # Fill missing values (new models may not have historical scores)
+    df[["faithfulness_score", "bleu_score", "rouge_score"]] = df[
+        ["faithfulness_score", "bleu_score", "rouge_score"]
+    ].fillna(df[["faithfulness_score", "bleu_score", "rouge_score"]].mean())
+
+    # Retrain the LLM classifier using updated data
+
+    # Encode categorical variables
+    label_encoder = LabelEncoder()
+    df["LLM"] = label_encoder.fit_transform(df["LLM"])
+
+    # Prepare features and target
+    X = df.drop(columns=["LLM", "predicted_llm"])  # Remove unnecessary columns
+    y = df["LLM"]
+
+    # Scale numerical features
+    scaler = StandardScaler()
+    X = scaler.fit_transform(X)
+
+    # Train/Test split
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    # Train XGBoost Model
+    clf = XGBClassifier(n_estimators=50, max_depth=3, random_state=42, use_label_encoder=False, eval_metric="mlogloss")
+    clf.fit(X_train, y_train)
+
+    # Predict and Evaluate
+    y_pred = clf.predict(X_test)
+    accuracy = accuracy_score(y_test, y_pred)
+
+    print(f"Updated Model Accuracy: {accuracy:.4f}")
