@@ -11,6 +11,11 @@ LOG_FILE = "predictions_log.json"
 
 app = FastAPI()
 
+
+def monitor_metrics():
+    '''monitor metrics trigger retraining based on rules'''
+    pass
+
 class PromptInput(BaseModel):
     prompt: str
     task_details: str

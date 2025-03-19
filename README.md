@@ -16,7 +16,7 @@ Aggregating data from Hugging Face and other benchmark sources requires extensiv
 #### API Endpoints
 
 ##### `/predict`
-- Endpoint that takes a prompt and returns the best LLM model based on the features of the prompt and the confidence score.
+- Endpoint that takes a prompt, task description and returns the best LLM model based on the features of the prompt and the confidence score.
 - Calls **`predict_llm()`**
   - Extracts features from the prompt, predicts the best LLM model, and logs the prediction.
 
