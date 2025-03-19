@@ -1,4 +1,17 @@
-#### Why I chose to Synthesize Features Instead of Using Public Datasets  
+## A LLM classifer with Feedback System 
+#### An LLM classifier with a feedback system continuously improves its predictions by incorporating user feedback, refining its model based on real-world performance. This adaptive approach helps enhance accuracy, reduce biases, and optimize LLM selection for various tasks over time.
+
+
+## Summary
+ - [Why I Decided to Generate Features Instead of Relying on Public Datasets?](# Why-I-Decided-to-Generate-Features-Instead-of-Relying-on-Public-Datasets)
+ - [Architecture](#Architecture)
+ - [Workflow](#Workflow)
+ - [Chat App](#Chat-App)
+ - [Alternate Approaches](#Alternate-Approaches)
+ - [Resources](#Resources)
+
+
+#### Why I Decided to Generate Features Instead of Relying on Public Datasets
 
 I lacked programmatic access to LLM models, which restricted my ability to create features for this assignment. Preprocessing publicly available benchmark datasets like "grade-school-math," "hellaswag," "mmlu," "arc-challenge," "mbpp," "winogrande," and "mtbench" presents several challenges in terms of time and data integration. These datasets vary significantly in structure, format, and granularity, making it difficult to standardize them into a unified feature set.  
 
