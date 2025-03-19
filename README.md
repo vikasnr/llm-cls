@@ -103,6 +103,10 @@ Refer notebooks/data_preprocessing.ipynb for more details on preprocessing.
 
 [RouterBench](https://github.com/withmartian/routerbench)/
 
+[How to select LLMs](https://www.datacamp.com/tutorial/llm-classification-how-to-select-the-best-llm-for-your-application)\
+
+[Types of LLM](https://labelyourdata.com/articles/types-of-llms)
+
 
 
 
