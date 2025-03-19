@@ -24,8 +24,10 @@ Aggregating data from Hugging Face and other benchmark sources requires extensiv
 -----------------------------
 
 Refer notebooks/data_preprocessing.ipynb for more details on preprocessing.
---------------------------
+
 #### Model Training and Inference 
+--------------------------
+
 - Refer notebooks/Modelling_Final.ipynb
 - Refer model architecture notebooks/files/xgboost_arch.png
 
