@@ -15,7 +15,7 @@
 
 ------------------------------------
 
-#### Why I Decided to Generate Features Instead of Relying on Public Datasets
+### Why I Decided to Generate Features Instead of Relying on Public Datasets
 
 
 Before diving into the other sections, I’d like to explain why I chose to generate the data myself.
@@ -26,13 +26,13 @@ Aggregating data from Hugging Face and other benchmark sources requires extensiv
 -----------------------------
 
 
-#### Data Preprocessing
+### Data Preprocessing
 
 Refer notebooks/data_preprocessing.ipynb for more details on preprocessing.
 
 -------------------------------------------------
 
-#### Model Training and Inference 
+### Model Training and Inference 
 
 - Refer notebooks/Modelling_Final.ipynb
 - Refer model architecture notebooks/files/xgboost_arch.png
@@ -46,7 +46,7 @@ Refer notebooks/data_preprocessing.ipynb for more details on preprocessing.
 
 
 
-#### API Endpoints
+### API Endpoints
 
 ##### `/predict`
 - Endpoint that takes a prompt, task description and returns the best LLM model based on the features of the prompt and the confidence score.
