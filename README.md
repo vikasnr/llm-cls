@@ -97,11 +97,11 @@ Refer notebooks/data_preprocessing.ipynb for more details on preprocessing.
 
 ### Resources
 
-[stanford helm](https://crfm.stanford.edu/helm/)\
+[stanford helm](https://crfm.stanford.edu/helm/)/
 
-[LMSYS](https://huggingface.co/spaces/lmarena-ai/chatbot-arena-leaderboard)\
+[LMSYS](https://huggingface.co/spaces/lmarena-ai/chatbot-arena-leaderboard)/
 
-[RouterBench](https://github.com/withmartian/routerbench)\
+[RouterBench](https://github.com/withmartian/routerbench)/
 
 
 
