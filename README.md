@@ -1,13 +1,13 @@
 ## A LLM classifer with Feedback System 
 #### An LLM classifier with a feedback system continuously improves its predictions by incorporating user feedback, refining its model based on real-world performance. This adaptive approach helps enhance accuracy, reduce biases, and optimize LLM selection for various tasks over time.
 
-
 ## Summary
- - [Why I Decided to Generate Features Instead of Relying on Public Datasets?](# Why-I-Decided-to-Generate-Features-Instead-of-Relying-on-Public-Datasets)
- - [Architecture](#Architecture)
- - [Workflow](#Workflow)
- - [Chat App](#Chat-App)
- - [Alternate Approaches](#Alternate-Approaches)
+ - [Why synthetic data?](# Why-I-Decided-to-Generate-Features-Instead-of-Relying-on-Public-Datasets)
+ - [Data Preprocessing](#Data-Preprocessing)
+ - [Model Training and Inference ](#Model-Training-and-Inference)
+ - [Feedback System](#Feedback-System)
+ - [API Endpoints](#API-Endpoints)
+ - [Limitation and Scope for Improvement](#Limitation-and-Scope-for-Improvement)
  - [Resources](#Resources)
 
 
@@ -75,6 +75,7 @@ Refer notebooks/data_preprocessing.ipynb for more details on preprocessing.
 - ###### Trying Other Models
     With the increase in train samples using complex models like deep learning models could yield better results.
 
+### Resources
 
 
 
