@@ -68,10 +68,10 @@ Refer notebooks/data_preprocessing.ipynb for more details on preprocessing.
   - Loads logs, converts them to a DataFrame, extracts features, retrains the model, and saves the updated models.
   
 ##### `/llm_call`
-- **(Dummy function)**
+- **(Dummy API)**
 - Takes a prompt and the LLM model name and returns the generated response.
 
-##### `/monitor_metric`
+##### `monitor_metric()`
 - **(Dummy function)**
 - This could be a seperate service that monitors log and triggers retrain based on set rules
 
