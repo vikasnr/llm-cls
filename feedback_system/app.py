@@ -21,7 +21,6 @@ class FeedbackInput(BaseModel):
     correct_llm: str  
     ground_truth: Optional[str]
 
-
 class LLLSelected(BaseModel):
     prompt: str
 

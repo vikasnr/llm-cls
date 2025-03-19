@@ -107,8 +107,6 @@ def classify_complexity():
     # Placeholder for complexity classification logic
     return "Medium"
 
-
-
 def predict_llm(prompt,task_details):
     """
     Predicts the best LLM and logs the prediction.
@@ -117,7 +115,7 @@ def predict_llm(prompt,task_details):
 
 
     complexity = classify_complexity(prompt)
-    
+
     features.update({"complexity": complexity, "module": "document_extraction","prompt_length": len(prompt),"module":task_details})
 
     print(features)
