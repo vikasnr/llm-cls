@@ -77,6 +77,13 @@ Refer [data_processing.ipynb](notebooks/data_preprocessing.ipynb) for more detai
 
 #### Refer feedback_system folder for more details
 
+#### To start feedback system
+
+```
+pip install -r requirements.txt
+cd feedback_system
+uvicorn app:app --host <IP> --port 9169 --reload
+```
 -------------------------------------------------
 
 ### Limitation and Scope for Improvement
@@ -95,13 +102,7 @@ Refer [data_processing.ipynb](notebooks/data_preprocessing.ipynb) for more detai
 
 -------------------------------------------------
 
-#### To start feedback system
 
-```
-pip install -r requirements.txt
-cd feedback_system
-uvicorn app:app --host <IP> --port 9169 --reload
-```
 ### Resources
 
 [stanford helm](https://crfm.stanford.edu/helm/)/
