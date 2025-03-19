@@ -1,3 +1,9 @@
 imbalanced-learn
 spacy
 textstat
+fastapi
+nltk
+sentence-transformers
+rouge
+xgboost
+pandas

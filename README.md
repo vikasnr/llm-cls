@@ -83,9 +83,9 @@ Refer notebooks/data_preprocessing.ipynb for more details on preprocessing.
 
 - ###### Limitations of Synthetic Dataset
     Synthetic dataset doesn’t closely resemble real user queries and responses. This is one area which will need greater amount of time - fetching from varies source and aggregating them for modules.
-
+    
 - ###### Feature selection
-    I wouldn't say the features choosen initially are the best. All though I have added BLEU, ROUGE scores etc in feedback system, it could be helpful to have these scores during intial modelling.
+    I wouldn't say the features choosen initially are the best. All though I have added `BLEU`, `ROUGE`, `Hallucination` score scores etc in feedback system, it could be helpful to have these scores during intial modelling.
 
 - ###### Increasing Training Data
     Increasing the number of training examples by collecting from varies sources and transforming will definitely be beneficial.

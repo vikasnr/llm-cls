@@ -1,4 +1,3 @@
-import pandas as pd
 import numpy as np
 import joblib
 import json
@@ -25,13 +24,12 @@ FEEDBACK_LOG_FILE = "feedback_log.json"
 
 
 # Load trained models
-clf = joblib.load("llm_classifier.pkl")
-ohe = joblib.load("onehot_encoder.pkl")
-le = joblib.load("label_encoder.pkl")
-scaler = joblib.load("scaler.pkl")
+model = joblib.load("files/best_xgboost.pkl")
+scaler = joblib.load("files/v5_random_forest_scaler.pkl")
+ohe = joblib.load("files/v5_random_forest_onehot_encoder.pkl")
+le = joblib.load("files/v5_random_forest_label_encoder.pkl")
 
-X_train_subset = pd.read_csv("X_train_subset.csv")
-
+X_train_subset = pd.read_csv("files/X_train_subset.csv")
 
 
 def retrain_model_without_metrics():
@@ -50,15 +48,25 @@ def retrain_model_without_metrics():
     # One-hot encode categorical features again
     df_encoded = ohe.fit_transform(df[["complexity", "data_type", "module"]])
     df_encoded = pd.DataFrame(df_encoded, columns=ohe.get_feature_names_out())
-    
-    df = df.drop(columns=["complexity", "data_type", "module", "predicted_llm", "prediction_proba"])
+
+    df = df.drop(
+        columns=[
+            "complexity",
+            "data_type",
+            "module",
+            "predicted_llm",
+            "prediction_proba",
+        ]
+    )
     df = pd.concat([df, df_encoded], axis=1)
 
     # Re-train model
     X_new = df.drop(columns=["correct_llm"])
     y_new = le.fit_transform(df["correct_llm"])
 
-    X_train, X_test, y_train, y_test = train_test_split(X_new, y_new, test_size=0.2, random_state=42, stratify=y_new)
+    X_train, X_test, y_train, y_test = train_test_split(
+        X_new, y_new, test_size=0.2, random_state=42, stratify=y_new
+    )
 
     scaler.fit(X_train)
     X_train_scaled = scaler.transform(X_train)
@@ -76,7 +84,10 @@ def retrain_model_without_metrics():
     print("Model retrained and saved!")
 
 
-def retrain_model_with_metrics(previous_file="logs/llm_selection_dataset.csv", feedback_file="logs/llm_feedback_scores.csv"):
+def retrain_model_with_metrics(
+    previous_file="logs/llm_selection_dataset.csv",
+    feedback_file="logs/llm_feedback_scores.csv",
+):
 
     # Load previous LLM selection data
     df = pd.read_csv(previous_file)
@@ -85,9 +96,13 @@ def retrain_model_with_metrics(previous_file="logs/llm_selection_dataset.csv", f
     feedback_scores = pd.read_csv(feedback_file)
 
     # Compute Moving Average Scores for Each LLM
-    llm_performance = feedback_scores.groupby("predicted_llm")[
-        ["faithfulness_score", "bleu_score", "rouge_score"]
-    ].mean().reset_index()
+    llm_performance = (
+        feedback_scores.groupby("predicted_llm")[
+            ["faithfulness_score", "bleu_score", "rouge_score"]
+        ]
+        .mean()
+        .reset_index()
+    )
 
     # Merge LLM performance data with training set
     df = df.merge(llm_performance, left_on="LLM", right_on="predicted_llm", how="left")
@@ -112,10 +127,18 @@ def retrain_model_with_metrics(previous_file="logs/llm_selection_dataset.csv", f
     X = scaler.fit_transform(X)
 
     # Train/Test split
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=42
+    )
 
     # Train XGBoost Model
-    clf = XGBClassifier(n_estimators=50, max_depth=3, random_state=42, use_label_encoder=False, eval_metric="mlogloss")
+    clf = XGBClassifier(
+        n_estimators=50,
+        max_depth=3,
+        random_state=42,
+        use_label_encoder=False,
+        eval_metric="mlogloss",
+    )
     clf.fit(X_train, y_train)
 
     # Predict and Evaluate
