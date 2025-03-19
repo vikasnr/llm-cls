@@ -13,9 +13,7 @@ Aggregating data from Hugging Face and other benchmark sources requires extensiv
 
 ### Feedback system
 
-![frontend](notebooks/files/feedback_system.png)
-
-<img src="notebooks/files/feedback_system.png" width="960" class="center">
+<img src="notebooks/files/feedback_system.png" width="760" class="center">
 
 
 #### API Endpoints
