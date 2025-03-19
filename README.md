@@ -1,5 +1,5 @@
 ## A LLM classifer with Feedback System 
-#### An LLM classifier with a feedback system continuously improves its predictions by incorporating user feedback, refining its model based on real-world performance. This adaptive approach helps enhance accuracy, reduce biases, and optimize LLM selection for various tasks over time.
+#### LLM classifier with a feedback system continuously improves its predictions by incorporating user feedback, refining its model based on real-world performance. This adaptive approach helps enhance accuracy, reduce biases, and optimize LLM selection for various tasks over time.
 
 ## Summary
 
