@@ -2,6 +2,7 @@
 #### An LLM classifier with a feedback system continuously improves its predictions by incorporating user feedback, refining its model based on real-world performance. This adaptive approach helps enhance accuracy, reduce biases, and optimize LLM selection for various tasks over time.
 
 ## Summary
+------------------------------------
  - [Why Synthetic Data?](#Why-I-Decided-to-Generate-Features-Instead-of-Relying-on-Public-Datasets)
  - [Data Preprocessing](#Data-Preprocessing)
  - [Model Training and Inference ](#Model-Training-and-Inference)
@@ -10,25 +11,27 @@
  - [Limitation and Scope for Improvement](#Limitation-and-Scope-for-Improvement)
  - [Resources](#Resources)
 
-------------------------------------
 
 #### Why I Decided to Generate Features Instead of Relying on Public Datasets
+------------------------------------
+
 Before diving into the other sections, I’d like to explain why I chose to generate the data myself.
 I lacked programmatic access to LLM models, which restricted my ability to create features for this assignment. Preprocessing publicly available benchmark datasets like "grade-school-math," "hellaswag," "mmlu," "arc-challenge," "mbpp," "winogrande," and "mtbench" presents several challenges in terms of time and data integration. These datasets vary significantly in structure, format, and granularity, making it difficult to standardize them into a unified feature set.  
 
 Aggregating data from Hugging Face and other benchmark sources requires extensive cleaning, normalization, and alignment of missing attributes. Many datasets lack key metadata which are essential for my classifier. Additionally, these benchmarks often focus on specific LLM capabilities rather than providing a balanced distribution across all prompt types. 
 
------------------------------
 #### Data Preprocessing
+-----------------------------
+
 Refer notebooks/data_preprocessing.ipynb for more details on preprocessing.
 --------------------------
 #### Model Training and Inference 
 - Refer notebooks/Modelling_Final.ipynb
 - Refer model architecture notebooks/files/xgboost_arch.png
--------------------------------------------------
+
 
 ### Feedback System
-
+-------------------------------------------------
 <img src="notebooks/files/feedback_system.png" width="760" class="center">
 
 
@@ -62,9 +65,9 @@ Refer notebooks/data_preprocessing.ipynb for more details on preprocessing.
 - This could be a seperate service that monitors log and triggers retrain based on set rules
 
 #### Refer feedback_system folder for more details
-----------------------------------------
-### Limitation and Scope for Improvement
 
+### Limitation and Scope for Improvement
+----------------------------------------
 - ###### Limitations of Synthetic Dataset
     Synthetic dataset doesn’t closely resemble real user queries and responses. This is one area which will need greater amount of time - fetching from varies source and aggregating them for modules.
 
@@ -76,9 +79,9 @@ Refer notebooks/data_preprocessing.ipynb for more details on preprocessing.
   
 - ###### Trying Other Models
     With the increase in train samples using complex models like deep learning models could yield better results.
--------------------------------------
-### Resources
 
+### Resources
+-------------------------------------
 
 
 
