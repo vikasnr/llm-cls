@@ -36,7 +36,7 @@ Refer notebooks/data_preprocessing.ipynb for more details on preprocessing.
 - Endpoint that takes a prompt, task description and returns the best LLM model based on the features of the prompt and the confidence score.
 - Calls **`predict_llm()`**
   - Extracts features from the prompt, predicts the best LLM model, and logs the prediction.
-
+-----------------------------------
 ##### `/feedback`
 - Endpoint that takes a prompt, response, correct LLM model, and ground truth response, and logs the feedback scores.
 - Calls **`evaluate_llm()`**  
