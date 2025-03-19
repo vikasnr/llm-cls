@@ -1,0 +1,5 @@
+prompt_length,num_tokens,num_sentences,lexical_diversity,readability,noun_ratio,verb_ratio,adjective_ratio,num_named_entities,contains_table,contains_list,redundancy_score,compression_ratio,contains_numbers,contains_chain_of_thought,contains_output_constraints,is_multi_turn,complexity_Complex,complexity_Medium,complexity_Simple,module_document_extraction,module_interactive_qa_chatbot,module_multi_document_summarization,module_quantitative_analysis,module_report_generation
+60,11,1,0.9090909090909092,8.4,0.2727272727272727,0.1818181818181818,0.0,1,False,False,1,5.454545454545454,False,False,False,False,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+55,10,1,1.0,9.2,0.2,0.2,0.0,0,False,False,0,5.5,False,False,False,False,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+95,17,1,0.9411764705882352,10.3,0.2352941176470588,0.1764705882352941,0.0,0,False,False,1,5.588235294117647,False,False,False,False,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+97,19,1,0.8421052631578947,9.5,0.3157894736842105,0.1052631578947368,0.0526315789473684,0,False,False,2,5.105263157894737,False,False,False,False,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
