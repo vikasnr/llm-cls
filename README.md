@@ -2,7 +2,7 @@
 #### An LLM classifier with a feedback system continuously improves its predictions by incorporating user feedback, refining its model based on real-world performance. This adaptive approach helps enhance accuracy, reduce biases, and optimize LLM selection for various tasks over time.
 
 ## Summary
- - [Why synthetic data?](# Why-I-Decided-to-Generate-Features-Instead-of-Relying-on-Public-Datasets)
+ - [Why Synthetic Data?](#Why-I-Decided-to-Generate-Features-Instead-of-Relying-on-Public-Datasets)
  - [Data Preprocessing](#Data-Preprocessing)
  - [Model Training and Inference ](#Model-Training-and-Inference)
  - [Feedback System](#Feedback-System)
