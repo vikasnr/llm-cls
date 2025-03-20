@@ -4,7 +4,7 @@
 ## Summary
 
  - [Why Synthetic Data?](#Why-I-Decided-to-Generate-Features-Instead-of-Relying-on-Public-Datasets)
- - [Data Preprocessing](#Data-Preprocessing)
+ - [Data Generation & Preprocessing](#Data-Generation-&-Preprocessing)
  - [Model Training and Inference ](#Model-Training-and-Inference)
  - [Feedback System](#Feedback-System)
  - [API Endpoints](#API-Endpoints)
@@ -26,7 +26,7 @@ Aggregating data from Hugging Face and other benchmark sources requires extensiv
 -----------------------------
 
 
-### Data Preprocessing
+### Data Generation & Preprocessing
 
 Refer [data_processing.ipynb](notebooks/data_preprocessing.ipynb) for more details on preprocessing.
 
