@@ -64,8 +64,10 @@ Refer [data_processing.ipynb](notebooks/data_preprocessing.ipynb) for more detai
 - Endpoint that retrains the LLM model based on the feedback logs.
 - Calls **`retrain_model_with_metrics()`**  
   - Loads previous LLM selection data, faithfulness, BLEU, and ROUGE scores, and retrains the model.
+  - Uses feed back data and scores calculated on it for improving the model.
 - Calls **`retrain_model_without_metrics()`**  
   - Loads logs, converts them to a DataFrame, extracts features, retrains the model, and saves the updated models.
+  - Uses prediction from live data along with initial modelling data.
   
 ##### `/llm_call`
 - **(Dummy API)**
