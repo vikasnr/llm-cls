@@ -4,7 +4,7 @@
 ## Summary
 
  - [Why Synthetic Data?](#Why-I-Decided-to-Generate-Features-Instead-of-Relying-on-Public-Datasets)
- - [Data Generation & Preprocessing](#Data-Generation-&-Preprocessing)
+ - [Data Generation and Preprocessing](#Data-Generation-and-Preprocessing)
  - [Model Training and Inference ](#Model-Training-and-Inference)
  - [Feedback System](#Feedback-System)
  - [API Endpoints](#API-Endpoints)
