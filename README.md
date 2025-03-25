@@ -19,7 +19,7 @@
 
 
 Before diving into the other sections, I’d like to explain why I chose to generate the data myself.
-I lacked programmatic access to LLM models, which restricted my ability to create features for this assignment. Preprocessing publicly available benchmark datasets like ```grade-school-math```, ```hellaswag```, ```mmlu```, ```arc-challenge```,```mbpp```,```winogrande``` and ```mtbench``` presents several challenges in terms of time and data integration. These datasets vary significantly in structure, format, and granularity, making it difficult to standardize them into a unified feature set.  
+I lacked programmatic access to LLM models, which restricted my ability to create features for this project. Preprocessing publicly available benchmark datasets like ```grade-school-math```, ```hellaswag```, ```mmlu```, ```arc-challenge```,```mbpp```,```winogrande``` and ```mtbench``` presents several challenges in terms of time and data integration. These datasets vary significantly in structure, format, and granularity, making it difficult to standardize them into a unified feature set.  
 
 Aggregating data from Hugging Face and other benchmark sources requires extensive cleaning, normalization, and alignment of missing attributes. Many datasets lack key metadata which are essential for my classifier. Additionally, these benchmarks often focus on specific LLM capabilities rather than providing a balanced distribution across all prompt types. 
 
@@ -94,7 +94,7 @@ uvicorn app:app --host <IP> --port 9169 --reload
     Synthetic dataset doesn’t closely resemble real user queries and responses. This is one area which will need greater amount of time - fetching from varies source and aggregating them for modules.
     
 - ###### Feature selection
-    I wouldn't say the features choosen initially are the best. All though I have added `BLEU`, `ROUGE`, `Hallucination` score scores etc in feedback system, it could be helpful to have these scores during intial modelling.
+    I wouldn't say the features choosen initially are the best. All though I have added `BLEU`, `ROUGE`, `Hallucination` scores etc in feedback system, it could be helpful to have these scores during intial modelling.
 
 - ###### Increasing Training Data
     Increasing the number of training examples by collecting from varies sources and transforming will definitely be beneficial.
