@@ -107,13 +107,13 @@ uvicorn app:app --host <IP> --port 9169 --reload
 
 ### Resources
 
-[stanford helm](https://crfm.stanford.edu/helm/)\
+[stanford helm](https://crfm.stanford.edu/helm/)
 
-[LMSYS](https://huggingface.co/spaces/lmarena-ai/chatbot-arena-leaderboard)\
+[LMSYS](https://huggingface.co/spaces/lmarena-ai/chatbot-arena-leaderboard)
 
-[RouterBench](https://github.com/withmartian/routerbench)\
+[RouterBench](https://github.com/withmartian/routerbench)
 
-[How to select LLMs](https://www.datacamp.com/tutorial/llm-classification-how-to-select-the-best-llm-for-your-application)\
+[How to select LLMs](https://www.datacamp.com/tutorial/llm-classification-how-to-select-the-best-llm-for-your-application)
 
 [Types of LLM](https://labelyourdata.com/articles/types-of-llms)
 
